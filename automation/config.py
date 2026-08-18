@@ -27,8 +27,15 @@ QUARTER_WINDOWS = [
 
 # ---------------------------------------------------------------------------
 # The 13 required sections, in required display order.
-# Every issue must include ALL 13 — a section with no genuine news for the
-# quarter is rendered as an honest empty-note, never fabricated content.
+# Every issue's content JSON must include ALL 13 keys — a section with no
+# genuine news for the quarter gets "items": [] and is omitted from the
+# rendered output entirely (see render_magazine.py).
+#
+# These 13 are a COVERAGE CHECKLIST, not an exhaustive restriction on what
+# may be reported: this is not a fixed format every quarter must fit into.
+# Genuine, sourced Jain community news that doesn't cleanly belong to one of
+# the other 12 named categories can still be included — place it under
+# "Other Community News / Announcements", the deliberate flexible catch-all.
 # ---------------------------------------------------------------------------
 SECTIONS = [
     "Top News",
@@ -90,9 +97,12 @@ CRUELTY_BLOCKLIST = [
 SOURCING_POLICY = (
     "Only real, live-researched, dated, and attributed news, drawn from "
     "trusted sources. Never fabricate an item to fill a section. If "
-    "genuinely no verifiable spiritual news exists for a section in the "
-    "quarter, render that section as honestly empty. Every item must carry "
-    "an outlet name and a date."
+    "genuinely no verifiable news exists for a section in the quarter, "
+    "render that section as honestly empty. Every item must carry an "
+    "outlet name and a date, and the item's real source URL should be "
+    "captured in its 'url' field whenever the research step has it, so "
+    "readers can click through to the full original article — never invent "
+    "a URL if the real one wasn't captured; omit the field instead."
 )
 
 # Preferred/trusted outlet families. Not an exhaustive allowlist — the

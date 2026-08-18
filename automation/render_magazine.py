@@ -119,6 +119,7 @@ h2.page-title { font-family:"Liberation Serif",Georgia,serif; font-weight:700; f
 .item .headline { font-family:"Liberation Serif",Georgia,serif; font-weight:700; font-size:19px; margin:0 0 8px 0; color:#1c1712; }
 .item .body-text { font-size:14.5px; line-height:1.5; color:#33291f; margin:0 0 6px 0; }
 .item .source-line { font-size:10.5px; letter-spacing:0.5px; color:#9a8c6e; text-transform:uppercase; font-weight:700; }
+.item .source-line a.source-link { color:#b9541f; text-decoration:underline; }
 .empty-note { font-size:13px; font-style:italic; color:#6b5f4d; padding:4px 0 8px 0; }
 
 /* ---- Back cover ---- */
@@ -189,12 +190,18 @@ def build_section_block(name: str, data: dict) -> str:
     else:
         parts = []
         for it in items:
+            source_text = f"Source: {esc(it.get('source',''))} &middot; {esc(it.get('date',''))}"
+            url = it.get("url")
+            if url:
+                source_html = f'<a href="{esc(url)}" class="source-link">{source_text} &rarr; Read full article</a>'
+            else:
+                source_html = source_text
             parts.append(f"""
   <div class="item">
     <div class="loc">{esc(it.get('location',''))}</div>
     <div class="headline">{esc(it.get('headline',''))}</div>
     <div class="body-text">{esc(it.get('body',''))}</div>
-    <div class="source-line">Source: {esc(it.get('source',''))} &middot; {esc(it.get('date',''))}</div>
+    <div class="source-line">{source_html}</div>
   </div>""")
         body = "".join(parts)
     return f"""
@@ -323,7 +330,6 @@ def build_html(content: dict, cover_b64: str) -> str:
     parts.append(build_cover(issue, cover_b64))
     if cfg.HAS_TABLE_OF_CONTENTS:
         parts.append(build_toc(filled_sections))
-    parts.append(build_editors_note(content.get("editors_note", "")))
 
     parts.extend(pack_into_pages(filled_sections))
 

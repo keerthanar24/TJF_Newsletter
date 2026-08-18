@@ -19,13 +19,21 @@ required sections (listed in `config.py`, `SECTIONS`). For each section:
 - Never use unattributed blogs, anonymous aggregators, or unverified social
   posts as a sole source.
 - Every item must have: a real headline, location, source outlet name, a
-  specific date within the quarter window, and a 2–4 sentence factual
-  summary with no embellishment.
+  specific date within the quarter window, a 2–4 sentence factual summary
+  with no embellishment, and — whenever you have it — the article's real
+  **`url`**, so readers can click through and read it in full. Never invent
+  a URL; if the real one wasn't captured, omit the `url` field for that
+  item rather than guessing or reusing another item's link.
 - **If nothing genuine is found for a section, leave it empty.** Do not
   stretch dates, do not paraphrase an out-of-window event into looking
   current, and do not invent an item. An empty section in the output JSON
   (`"items": []`) is the correct, honest result — `render_magazine.py`
-  renders it as a clean empty-note automatically.
+  omits that section entirely from the rendered output (no header, no
+  placeholder text).
+- The 13 sections are a coverage checklist, not an exhaustive limit — real,
+  sourced Jain community news that doesn't fit one of the other 12 named
+  categories can still go under "Other Community News / Announcements",
+  the deliberate flexible catch-all.
 
 ## 1b. Geographic balance — ~80% India, ~20% overseas
 
@@ -91,11 +99,17 @@ rotation history reflects this issue's choice for next quarter.
 
 ## 5. Write the content JSON
 
-Populate a copy of `content_schema_example.json` for the quarter:
-`issue` metadata (volume, edition, coverage dates, cover image path, 2–3
-cover teaser headlines drawn from the strongest items), `editors_note`, and
-`sections` — all 13 keys present, each either populated with real items or
+Populate a copy of `content_schema_example.json` for the quarter: `issue`
+metadata (volume — reuse the same volume number as the most recent past
+issue in `issues/`, don't increment it just because a new quarter ran;
+edition, coverage dates, cover image path, 2–3 cover teaser headlines drawn
+from the strongest items) and `sections` — all 13 keys present, each either
+populated with real items (each with `url` when available, see step 1) or
 `"items": []`.
+
+`editors_note` is optional internal record-keeping only — it is NOT
+rendered in the magazine (no Editor's Note page is produced). Fill it in or
+leave it blank as you prefer; it has no reader-facing effect.
 
 Do not include a visible confidence/caveat line in `headline` or `body` —
 if you want to track sourcing confidence for internal review, put it in an

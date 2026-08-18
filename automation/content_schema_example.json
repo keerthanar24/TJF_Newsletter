@@ -14,7 +14,7 @@
       "Two Temples Mark Historic Anniversaries"
     ]
   },
-  "editors_note": "This edition is compiled by AI curation of verified community portals, temple announcements, and recognised Jain news organisations, restricted strictly to spiritual events and happenings. Every headline is dated, sourced, and drawn from a trusted outlet. Where no verifiable spiritual news was found for a section this quarter, it is left honestly empty rather than filled.",
+  "editors_note": "Internal record only — not rendered in the magazine output. Free text describing this issue's sourcing/scope notes for editorial reference.",
   "sections": {
     "Top News": { "items": [] },
     "New Diksha Announcements": { "items": [] },
@@ -26,7 +26,8 @@
           "body": "Per the Jain calendar, Shravan Shukla Panchami and Shukla Shashthi mark Neminath's Janma Kalyanak (birth anniversary) and Diksha/Tap Kalyanak (renunciation anniversary) respectively — traditionally observed at Sahasavan near Mount Girnar, his site of renunciation.",
           "source": "Jain Tithi Panchang (Samyakdarshan.org, Sus Jain Mandir Calendar)",
           "date": "2026-08-17",
-          "_confidence_internal": "Corroborated by two independent panchang sources; not shown in final layout."
+          "url": "https://www.samyakdarshan.org/example-panchang-page",
+          "_confidence_internal": "Corroborated by two independent panchang sources; not shown in final layout. 'url' above IS shown (as a clickable link next to the source line) — omit the 'url' field entirely, don't fabricate one, if the real link wasn't captured during research."
         }
       ]
     },

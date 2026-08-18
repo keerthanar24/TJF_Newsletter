@@ -1,0 +1,97 @@
+{
+  "issue": {
+    "title": "Jain Magazine",
+    "volume": "II",
+    "edition": "Revised — Last 15 Days",
+    "publish_date": "2026-08-18",
+    "coverage_start": "2026-08-03",
+    "coverage_end": "2026-08-18",
+    "cover_image_path": "assets/cover.jpg",
+    "cover_image_alt": "Shatrunjaya hill Jain temple complex at sunrise, full view",
+    "cover_teasers": [
+      "Neminath's Janma & Diksha Kalyanak Observed Nationwide",
+      "Gyan Ganga Mahotsav Begins in Bhilwara Under Acharya Pulaksagar Maharaj",
+      "Hindu-Jain Temple of Monroeville Marks 40th Anniversary"
+    ]
+  },
+  "editors_note": "This edition covers the most recent 15 days and is restricted to spiritual events and happenings only. Every headline is dated and sourced from a trusted outlet. Where no verifiable spiritual news was found for a section, it is left honestly empty rather than filled.",
+  "sections": {
+    "Top News": { "items": [] },
+    "New Diksha Announcements": { "items": [] },
+    "Tirthankar Kalyanak": {
+      "items": [
+        {
+          "location": "Girnar / Sahasavan, Gujarat & Nationwide",
+          "headline": "Lord Neminath's Janma & Diksha (Tap) Kalyanak Observed",
+          "body": "Per the Jain calendar, Shravan Shukla Panchami and Shukla Shashthi mark Neminath's Janma Kalyanak (birth anniversary) and Diksha/Tap Kalyanak (renunciation anniversary) respectively — traditionally observed at Sahasavan near Mount Girnar, his site of renunciation.",
+          "source": "Jain Tithi Panchang (Samyakdarshan.org, Sus Jain Mandir Calendar)",
+          "date": "Aug 17–18, 2026"
+        }
+      ]
+    },
+    "Jain Festivals / Parva": {
+      "items": [
+        {
+          "location": "Chitrakootdham, Bhilwara, Rajasthan",
+          "headline": "Gyan Ganga Mahotsav Begins Under Acharya Pulaksagar Maharaj",
+          "body": "A multi-day public religious-discourse festival opened on August 15 under Acharya Pulaksagar Maharaj, a prominent Digambar Jain acharya, during his Chaturmas stay in Bhilwara — with daily morning discourses running through August 30.",
+          "source": "Pratahkal",
+          "date": "Aug 15, 2026"
+        }
+      ]
+    },
+    "Community News": { "items": [] },
+    "Guru Maharaj Pravesh & Chaturmas Announcements": {
+      "items": [
+        {
+          "location": "Yamuna Nagar, Haryana",
+          "headline": "A Confluence of Devotion and Patriotism at SS Jain Sabha",
+          "body": "During ongoing Chaturmas, the community held a joint Independence Day and Hariyali Teej celebration, including a fancy-dress competition, blending devotional and patriotic programming.",
+          "source": "Amar Ujala",
+          "date": "Aug 18, 2026"
+        },
+        {
+          "location": "Indore, Madhya Pradesh",
+          "headline": "Muni Sudhasagar Ji Maharaj Addresses Jain Youth During Indore Chaturmas",
+          "body": "Muni Sudhasagar Ji Maharaj, in Indore for Chaturmas since July 26, delivered a special guidance address to Jain youth at Rishabh Sabha Hall, Adinath Jinalaya.",
+          "source": "Paliwalwani",
+          "date": "Aug 9, 2026"
+        }
+      ]
+    },
+    "New Temples & Tirth Renovation": {
+      "items": [
+        {
+          "location": "Jawas, Udaipur District, Rajasthan",
+          "headline": "Yaksha-Yakshi Pratishtha & Vasatika Foundation-Laying Announced",
+          "body": "A mahotsav announced for August 30 will install Yaksha-Yakshi deities and lay the foundation for a new pilgrim rest house (\"Vasatika\") at Sri Adinath Digambar Jain Temple.",
+          "source": "Pratahkal",
+          "date": "reported ~Aug 17, 2026"
+        },
+        {
+          "location": "Pittsburgh, Pennsylvania, USA",
+          "headline": "Hindu-Jain Temple of Monroeville Marks 40th Anniversary With Re-Inauguration Ceremony",
+          "body": "The joint Hindu-Jain temple — the first of its kind globally, where Hindus and both Shwetambar and Digambar Jains worship together — held a Shikhar Puja and re-inauguration ceremony marking 40 years since its 1984 founding, with its five domes ritually consecrated.",
+          "source": "Eastern Eye, Religion News Association",
+          "date": "Aug 10–11, 2026"
+        }
+      ]
+    },
+    "Jain Tirth News": {
+      "items": [
+        {
+          "location": "Sammed Shikharji, Jharkhand",
+          "headline": "World Jain Organisation Renews Demands Over Sammed Shikharji Security",
+          "body": "Renewed calls for a complete motorbike ban on the hill, removal of illegal encroachments, and additional CCTV coverage to protect the tirth's sanctity and security.",
+          "source": "Prabhat Khabar",
+          "date": "~Aug 11, 2026"
+        }
+      ]
+    },
+    "Jain Vihar": { "items": [] },
+    "The Jain Foundation News": { "items": [] },
+    "Jain Leadership / Forums": { "items": [] },
+    "Jain Business & Trade": { "items": [] },
+    "Other Community News / Announcements": { "items": [] }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "issue": {
+    "title": "Jain Magazine",
+    "volume": "III",
+    "edition": "Q3 2026",
+    "publish_date": "2026-09-30",
+    "coverage_start": "2026-07-01",
+    "coverage_end": "2026-09-30",
+    "cover_image_path": "assets/cover.jpg",
+    "cover_image_alt": "Shatrunjaya hill Jain temple complex at sunrise",
+    "cover_teasers": [
+      "Neminath's Janma & Diksha Kalyanak Observed Nationwide",
+      "Gyan Ganga Mahotsav Draws Thousands in Bhilwara",
+      "Two Temples Mark Historic Anniversaries"
+    ]
+  },
+  "editors_note": "This edition is compiled by AI curation of verified community portals, temple announcements, and recognised Jain news organisations, restricted strictly to spiritual events and happenings. Every headline is dated, sourced, and drawn from a trusted outlet. Where no verifiable spiritual news was found for a section this quarter, it is left honestly empty rather than filled.",
+  "sections": {
+    "Top News": { "items": [] },
+    "New Diksha Announcements": { "items": [] },
+    "Tirthankar Kalyanak": {
+      "items": [
+        {
+          "location": "Girnar / Sahasavan, Gujarat & Nationwide",
+          "headline": "Lord Neminath's Janma & Diksha (Tap) Kalyanak Observed",
+          "body": "Per the Jain calendar, Shravan Shukla Panchami and Shukla Shashthi mark Neminath's Janma Kalyanak (birth anniversary) and Diksha/Tap Kalyanak (renunciation anniversary) respectively — traditionally observed at Sahasavan near Mount Girnar, his site of renunciation.",
+          "source": "Jain Tithi Panchang (Samyakdarshan.org, Sus Jain Mandir Calendar)",
+          "date": "2026-08-17",
+          "_confidence_internal": "Corroborated by two independent panchang sources; not shown in final layout."
+        }
+      ]
+    },
+    "Jain Festivals / Parva": { "items": [] },
+    "Community News": { "items": [] },
+    "Guru Maharaj Pravesh & Chaturmas Announcements": { "items": [] },
+    "New Temples & Tirth Renovation": { "items": [] },
+    "Jain Tirth News": { "items": [] },
+    "Jain Vihar": { "items": [] },
+    "The Jain Foundation News": { "items": [] },
+    "Jain Leadership / Forums": { "items": [] },
+    "Jain Business & Trade": { "items": [] },
+    "Other Community News / Announcements": { "items": [] }
+  }
+}

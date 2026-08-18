@@ -309,6 +309,11 @@ def build_html(content: dict, cover_b64: str) -> str:
     issue = content["issue"]
     sections = content["sections"]
 
+    # Sections with no items are omitted entirely — no header, no "no news
+    # found" block, and no line in the table of contents — rather than
+    # rendered as a visible empty placeholder.
+    filled_sections = {k: v for k, v in sections.items() if v.get("items")}
+
     year = str(issue.get("publish_date", ""))[:4] or "2026"
 
     parts = [f"<!doctype html><html><head><meta charset='utf-8'><title>{esc(cfg.MAGAZINE_TITLE)}</title><style>"
@@ -317,10 +322,10 @@ def build_html(content: dict, cover_b64: str) -> str:
 
     parts.append(build_cover(issue, cover_b64))
     if cfg.HAS_TABLE_OF_CONTENTS:
-        parts.append(build_toc(sections))
+        parts.append(build_toc(filled_sections))
     parts.append(build_editors_note(content.get("editors_note", "")))
 
-    parts.extend(pack_into_pages(sections))
+    parts.extend(pack_into_pages(filled_sections))
 
     if cfg.HAS_BACK_COVER:
         parts.append(build_back_cover().replace("{{YEAR}}", year))

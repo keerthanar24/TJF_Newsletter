@@ -1,0 +1,84 @@
+{
+  "issue": {
+    "title": "Jain Magazine",
+    "volume": "II",
+    "edition": "Fresh Update — Jul 1 – Jul 15, 2026",
+    "publish_date": "2026-07-15",
+    "coverage_start": "2026-07-01",
+    "coverage_end": "2026-07-15",
+    "cover_image_path": "assets/cover.jpg",
+    "cover_image_alt": "Shatrunjaya hill Jain temple complex at sunrise, full view",
+    "cover_teasers": [
+      "Young Jains of America Holds 17th Biennial Convention",
+      "Acharya Vardhamana Sagara Maharaj Attains Samadhi After Sallekhana"
+    ]
+  },
+  "editors_note": "Window 1 of 4, split from the Q3 2026 quarter-to-date magazine into consecutive 15-day sub-editions (Jul 1 - Aug 18, 2026 total).",
+  "sections": {
+    "Top News": { "items": [] },
+    "New Diksha Announcements": {
+      "items": [
+        {
+          "location": "Diksha · Agra, Uttar Pradesh",
+          "headline": "Karera's Mohanlal Jain Takes Muni Diksha in Agra",
+          "body": "Mohanlal Jain, a resident of Karera in Shivpuri district, Madhya Pradesh, renounced worldly life at a large Jaineshwari Diksha Mahotsav held in Agra, following a series of community farewell (vairagya) programs in his hometown.",
+          "source": "The Shivpuri News",
+          "date": "Jul 6, 2026",
+          "url": "https://www.shivpurikhabar.com/2026/06/blog-post_887.html"
+        }
+      ]
+    },
+    "Tirthankar Kalyanak": { "items": [] },
+    "Jain Festivals / Parva": { "items": [] },
+    "Community News": {
+      "items": [
+        {
+          "location": "Kunthalgiri, Maharashtra",
+          "headline": "Acharya Vardhamana Sagara Maharaj Attains Samadhi After Sallekhana",
+          "body": "Digambara Acharya Vardhamana Sagara Maharaj, of the spiritual lineage of Acharya Shantisagara Maharaj, passed away at Kunthalgiri Siddhakshetra following a 13-day fast undertaken under the Jain vow of Sallekhana (Samadhi Marana), with monks and devotees gathering from across India for the final rites.",
+          "source": "The Hans India",
+          "date": "Jul 7, 2026",
+          "url": "https://www.thehansindia.com/karnataka/jain-monk-vardhamana-sagara-maharaj-dies-after-observing-sallekhana-1094455"
+        }
+      ]
+    },
+    "Guru Maharaj Pravesh & Chaturmas Announcements": { "items": [] },
+    "New Temples & Tirth Renovation": { "items": [] },
+    "Jain Tirth News": { "items": [] },
+    "Jain Vihar": {
+      "items": [
+        {
+          "location": "Sammed Shikharji, Jharkhand",
+          "headline": "Muni Pramansagar Ji's Sangh Completes Charan Vandana of Sammed Shikharji",
+          "body": "Digambar Jain Muni Pramansagar Ji Maharaj and his monastic sangh completed a foot-pilgrimage veneration circuit of the sacred Sammed Shikharji hill, followed the next day by a \"mangal milan\" with the viharing sangh of Acharya Sambhavsagar Ji Maharaj at the same tirth.",
+          "source": "munipramansagar.net",
+          "date": "Jul 15–16, 2026",
+          "url": "https://www.munipramansagar.net/muni-sangh-shikhar-ji-pahad-vandana-15jul2026/"
+        },
+        {
+          "location": "Begun, Rajasthan",
+          "headline": "Sadhvi Mani Prabha's Mandal Completes Vihar Into Begun",
+          "body": "A group of Jain sadhvis led by Sadhvi Mani Prabha walked a multi-day route from Sukh Shanti Nagar to Begun town, ahead of their formal Chaturmas entry ceremony.",
+          "source": "Pratahkal",
+          "date": "mid-Jul 2026",
+          "url": "https://www.pratahkal.com/chittorgarh/begun-jain-sadhvi-mani-prabha-vihar-sukh-shanti-nagar-1612539"
+        }
+      ]
+    },
+    "The Jain Foundation News": { "items": [] },
+    "Jain Leadership / Forums": { "items": [] },
+    "Jain Business & Trade": { "items": [] },
+    "Other Community News / Announcements": {
+      "items": [
+        {
+          "location": "New Brunswick, New Jersey, USA",
+          "headline": "Young Jains of America Holds 17th Biennial Convention",
+          "body": "More than 800 Jain youth from across North America and abroad gathered for YJA's four-day convention, themed \"The Art of the In-Between,\" exploring Jain values alongside contemporary life through workshops, speakers, and cultural programming.",
+          "source": "YJA (Young Jains of America)",
+          "date": "Jul 2–5, 2026",
+          "url": "https://convention.yja.org/"
+        }
+      ]
+    }
+  }
+}

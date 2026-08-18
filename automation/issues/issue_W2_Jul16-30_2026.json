@@ -1,0 +1,106 @@
+{
+  "issue": {
+    "title": "Jain Magazine",
+    "volume": "II",
+    "edition": "Fresh Update — Jul 16 – Jul 30, 2026",
+    "publish_date": "2026-07-30",
+    "coverage_start": "2026-07-16",
+    "coverage_end": "2026-07-30",
+    "cover_image_path": "assets/cover.jpg",
+    "cover_image_alt": "Shatrunjaya hill Jain temple complex at sunrise, full view",
+    "cover_teasers": [
+      "Terapanth's 267th Foundation Day Observed Under Acharya Mahashraman",
+      "Lord Neminath's Moksha Kalyanak Observed Nationwide"
+    ]
+  },
+  "editors_note": "Window 2 of 4, split from the Q3 2026 quarter-to-date magazine into consecutive 15-day sub-editions (Jul 1 - Aug 18, 2026 total).",
+  "sections": {
+    "Top News": {
+      "items": [
+        {
+          "location": "Jain Vishva Bharati, Ladnun, Rajasthan",
+          "headline": "Terapanth's 267th Foundation Day Observed Under Acharya Mahashraman",
+          "body": "The Jain Śvetāmbara Terapanth Dharmasangh observed its 267th Foundation Day on Ashadhi Purnima, presided over by its 11th Acharya, Mahashraman — his first major discourse of this year's Chaturmas. Themed \"Terapanth Will Endure Forever,\" the occasion was simultaneously marked at Terapanth centers nationwide.",
+          "source": "Free Press Journal, Sri Dungargarh Times",
+          "date": "Jul 29, 2026",
+          "url": "https://www.freepressjournal.in/indore/terapanth-marks-267th-foundation-day-in-presence-of-acharya-mahashraman"
+        }
+      ]
+    },
+    "New Diksha Announcements": { "items": [] },
+    "Tirthankar Kalyanak": {
+      "items": [
+        {
+          "location": "Girnar, Gujarat & Multiple Cities",
+          "headline": "Lord Neminath's Moksha Kalyanak Observed Nationwide",
+          "body": "Jain temples in Jaipur and Firozabad held special worship marking the Moksha Kalyanak (liberation anniversary) of Neminath, the 22nd Tirthankar, as pilgrims also gathered at Girnar itself — revered as the site of his diksha, omniscience, and moksha.",
+          "source": "Patrika, Amar Ujala",
+          "date": "Jul 20, 2026",
+          "url": "https://www.patrika.com/jaipur-news/tirthankar-lord-neminath-moksha-kalyanak-8335258"
+        }
+      ]
+    },
+    "Jain Festivals / Parva": { "items": [] },
+    "Community News": {
+      "items": [
+        {
+          "location": "Malad East, Mumbai",
+          "headline": "'White Stripe' Road-Marking Dispute Flares Again",
+          "body": "Chemical markings painted on Daftari Road to guide barefoot Jain monks and nuns through Malad East were defaced by MNS workers with \"public objection\" graffiti and later repainted by the BMC — the latest flashpoint in Mumbai's recurring dispute over religious accommodations on public roads.",
+          "source": "Free Press Journal",
+          "date": "Jul 18, 2026",
+          "url": "https://www.freepressjournal.in/mumbai/white-stripe-row-mns-demands-strict-action-against-those-who-painted-public-road-in-malad-east"
+        }
+      ]
+    },
+    "Guru Maharaj Pravesh & Chaturmas Announcements": {
+      "items": [
+        {
+          "location": "Raipur, Chhattisgarh",
+          "headline": "Muni Aagam Sagar Ji's Mangal Pravesh Marks Bada Mandir's First Chaturmas in 18 Years",
+          "body": "Muni 108 Shri Aagam Sagar Ji Maharaj entered Raipur's historic Shri Digambar Jain Bada Mandir — the temple's first Chaturmas hosting in 18 years, drawing large community turnout.",
+          "source": "Haribhoomi",
+          "date": "Jul 19, 2026",
+          "url": "https://www.haribhoomi.com/state-local/chhattishgarh/news/raipur-vidyavanshi-chaturmas-2026-muni-aagam-sagar-maharaj-mangal-pravesh-jain-samaj-103948"
+        },
+        {
+          "location": "Mysuru, Karnataka",
+          "headline": "Gurudev Rameshmuniji Arrives in Mysuru After ~90,000-km Padayatra",
+          "body": "Gurudev Shri Rameshmuniji Maharaj Saheb, National Minister of the Shraman Sangh, began his Chaturmas stay at Shri Sthanakvasi Jain Sangh, Mahaveernagar, following a decades-spanning foot pilgrimage across India and Nepal.",
+          "source": "Star of Mysore",
+          "date": "Jul 24, 2026",
+          "url": "https://starofmysore.com/chaturmasik-pravesh/"
+        }
+      ]
+    },
+    "New Temples & Tirth Renovation": {
+      "items": [
+        {
+          "location": "Hyderabad, Telangana",
+          "headline": "Shri Shantinath Temple's Pratishtha Mahotsav Held in Avanti Nagar",
+          "body": "A consecration festival (Pratishtha Mahotsav) was held for the newly built Shri Shantinath Temple at Aviradh Park, Avanti Nagar.",
+          "source": "Daily Hindi Milap",
+          "date": "Jul 17–19, 2026",
+          "url": "https://www.hindimilap.com/promotional-material-for-the-shri-shantinath-temple-consecration-festival-unveiled/"
+        }
+      ]
+    },
+    "Jain Tirth News": { "items": [] },
+    "Jain Vihar": { "items": [] },
+    "The Jain Foundation News": { "items": [] },
+    "Jain Leadership / Forums": {
+      "items": [
+        {
+          "location": "Houston, Texas, USA",
+          "headline": "Houston's Swatantra Jain Named 2026 Sangh Seva Puraskar Recipient",
+          "body": "Swatantra Jain, founder and chairman of Jain Vishwa Bharati–Houston, was announced as recipient of the Sangh Seva Puraskar 2026 — conferred by Jain Vishwa Bharati, Ladnun — recognising decades of institution-building and service to the diaspora Jain community.",
+          "source": "Maneesh Media",
+          "date": "Jul 2026",
+          "url": "https://maneeshmedia.com/veteran-indian-american-community-leader-swatantra-jain-named-recipient-of-sangh-seva-puraskar-2026/"
+        }
+      ]
+    },
+    "Jain Business & Trade": { "items": [] },
+    "Other Community News / Announcements": { "items": [] }
+  }
+}

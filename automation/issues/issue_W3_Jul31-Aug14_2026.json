@@ -1,0 +1,109 @@
+{
+  "issue": {
+    "title": "Jain Magazine",
+    "volume": "II",
+    "edition": "Fresh Update — Jul 31 – Aug 14, 2026",
+    "publish_date": "2026-08-14",
+    "coverage_start": "2026-07-31",
+    "coverage_end": "2026-08-14",
+    "cover_image_path": "assets/cover.jpg",
+    "cover_image_alt": "Shatrunjaya hill Jain temple complex at sunrise, full view",
+    "cover_teasers": [
+      "Hindu-Jain Temple of Monroeville Marks 40th Anniversary",
+      "JITO USA Launches New Miami Chapter"
+    ]
+  },
+  "editors_note": "Window 3 of 4, split from the Q3 2026 quarter-to-date magazine into consecutive 15-day sub-editions (Jul 1 - Aug 18, 2026 total).",
+  "sections": {
+    "Top News": { "items": [] },
+    "New Diksha Announcements": { "items": [] },
+    "Tirthankar Kalyanak": { "items": [] },
+    "Jain Festivals / Parva": { "items": [] },
+    "Community News": { "items": [] },
+    "Guru Maharaj Pravesh & Chaturmas Announcements": {
+      "items": [
+        {
+          "location": "Indore, Madhya Pradesh",
+          "headline": "Muni Sudhasagar Ji Maharaj Addresses Jain Youth During Indore Chaturmas",
+          "body": "Muni Sudhasagar Ji Maharaj, in Indore for Chaturmas, delivered a special guidance address to Jain youth at Rishabh Sabha Hall, Adinath Jinalaya.",
+          "source": "Paliwalwani",
+          "date": "Aug 9, 2026",
+          "url": "https://paliwalwani.com/indore/special-guidance-address-to-the-youth-of-mahashraman-muni-sudhasagar-ji-maharaj-of-the-most-revered-"
+        }
+      ]
+    },
+    "New Temples & Tirth Renovation": {
+      "items": [
+        {
+          "location": "Pittsburgh, Pennsylvania, USA",
+          "headline": "Hindu-Jain Temple of Monroeville Marks 40th Anniversary With Re-Inauguration Ceremony",
+          "body": "The joint Hindu-Jain temple — the first of its kind globally, where Hindus and both Shwetambar and Digambar Jains worship together — held a Shikhar Puja and re-inauguration ceremony marking 40 years since its 1984 founding, with its five domes ritually consecrated.",
+          "source": "Eastern Eye, Religion News Association",
+          "date": "Aug 10–11, 2026",
+          "url": "https://www.easterneye.biz/hindu-jain-temple-monroeville-us/"
+        }
+      ]
+    },
+    "Jain Tirth News": {
+      "items": [
+        {
+          "location": "Sammed Shikharji, Jharkhand",
+          "headline": "World Jain Organisation Renews Demands Over Sammed Shikharji Security",
+          "body": "Renewed calls for a complete motorbike ban on the hill, removal of illegal encroachments, and additional CCTV coverage to protect the tirth's sanctity and security.",
+          "source": "Prabhat Khabar",
+          "date": "~Aug 11, 2026",
+          "url": "https://www.prabhatkhabar.com/state/jharkhand/giridih/sammed-shikharji-purity-and-security-world-jain-organization-raises-voice"
+        }
+      ]
+    },
+    "Jain Vihar": { "items": [] },
+    "The Jain Foundation News": {
+      "items": [
+        {
+          "location": "Ladnun, Rajasthan",
+          "headline": "Global Immersion Summer School Draws Scholars from 12+ Countries to Jain Vishva Bharati",
+          "body": "Nearly 40 students and scholars from more than a dozen countries attended a three-week \"Jain Way of Life\" program covering Jain philosophy, Prakrit/Sanskrit, and Preksha meditation, engaging directly with Acharya Mahashraman and Terapanth monastics.",
+          "source": "American Bazaar",
+          "date": "program through Aug 7, 2026",
+          "url": "https://americanbazaaronline.com/2026/08/01/students-from-around-world-experience-jain-way-of-life-ladnun-485625/"
+        }
+      ]
+    },
+    "Jain Leadership / Forums": {
+      "items": [
+        {
+          "location": "Miami, Florida, USA",
+          "headline": "JITO USA Launches New Miami Chapter",
+          "body": "The Jain International Trade Organisation's US arm launched a Miami initiative — a hybrid in-person and video gathering connecting the local Jain business community with JITO leadership in India. 21 founding members took the JITO oath at the launch, hosted at Florida International University.",
+          "source": "JITO USA",
+          "date": "Aug 9, 2026",
+          "url": "https://www.jitousa.org/news/jito-usa-launches-miami-chapter-at-florida-international-university/"
+        }
+      ]
+    },
+    "Jain Business & Trade": {
+      "items": [
+        {
+          "location": "Bengaluru, Karnataka",
+          "headline": "Bangalore Blasters Unveiled for Inaugural JITO Premier League",
+          "body": "Navrathan Jewellers and Jain Sports Group jointly launched the \"Bangalore Blasters\" cricket franchise for JITO Premier League Season 1, with cricket legend Kapil Dev attending, ahead of the tournament in Colombo (Aug 24–Sept 5).",
+          "source": "The Tribune, ANI",
+          "date": "Aug 11–12, 2026",
+          "url": "https://www.tribuneindia.com/news/bangalore-blasters/your-passion-is-important-kapil-dev-at-launch-event-of-bangalore-blasters-for-inaugural-jito-premier-league"
+        }
+      ]
+    },
+    "Other Community News / Announcements": {
+      "items": [
+        {
+          "location": "Lucknow, Uttar Pradesh",
+          "headline": "Rashtrahit Vichar Goshthi evam Samman Samaroh",
+          "body": "A discussion forum on national interest paired with a felicitation ceremony honoring distinguished Jain community members across professional fields — chartered accountants, doctors, lawyers, professors, engineers, and government officials.",
+          "source": "Amar Bharti",
+          "date": "Aug 9, 2026",
+          "url": "https://amarbharti.com/rashtrahit-vichar-goshti-samman-samaroh-jain-samaj-lucknow-9-august-2026/"
+        }
+      ]
+    }
+  }
+}

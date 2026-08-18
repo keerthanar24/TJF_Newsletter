@@ -38,11 +38,19 @@ def item_is_blocked(item: dict) -> str | None:
     Uses whole-word/phrase boundary matching (\\b...\\b), not plain substring
     containment — a naive `term in text` check would false-positive on things
     like "riot" inside "patriotism" or "gore" inside "category".
+
+    Also guards against negated mentions: "non-violence" / "nonviolence" /
+    "without violence" contain the word "violence" but mean the opposite —
+    ahimsa (non-violence) is core Jain terminology that must never trip this
+    filter. A blocklist term preceded by a negation prefix is not a match.
     """
     text = f"{item.get('headline', '')} {item.get('body', '')}".lower()
     for term in cfg.CRUELTY_BLOCKLIST:
         pattern = r"\b" + re.escape(term) + r"\b"
-        if re.search(pattern, text):
+        for m in re.finditer(pattern, text):
+            preceding = text[max(0, m.start() - 15):m.start()]
+            if re.search(r"(non[- ]|anti[- ]|without\s+|no\s+)$", preceding):
+                continue  # negated — e.g. "non-violence", not a real match
             return term
     return None
 

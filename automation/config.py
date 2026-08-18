@@ -47,19 +47,21 @@ SECTIONS = [
 ]
 
 # ---------------------------------------------------------------------------
-# Scope restriction: spiritual / happening events only.
-# Applied by the research step (an LLM judgment call, not a keyword filter —
-# see RESEARCH_AGENT_PROMPT.md) and re-checked here as a mechanical safety net.
-# A section or item that is civic, commercial, legal, or leadership news with
-# no devotional/religious content should not be included even if a "Jain"
-# person or organisation is involved.
+# Scope: general Jain community / foundation news — NOT spiritual-only.
+# This is a Jain Foundation publication, so its remit is the full breadth
+# of genuine Jain community life: spiritual/devotional events (diksha,
+# kalyanak, festivals, chaturmas, vihar, temple/tirth activity) AND civic,
+# business/trade, leadership, and institutional news involving the Jain
+# community. The only hard content restriction is CRUELTY_BLOCKLIST below
+# (no violence/cruelty/harm) — everything else genuine and sourced is in
+# scope for its matching section.
 # ---------------------------------------------------------------------------
 SCOPE_RULE = (
-    "Content must depict a genuinely spiritual or devotional event or "
-    "happening — diksha, kalyanak, festivals/parva, chaturmas, vihar, "
-    "temple/tirth activity, and directly related community-religious life. "
-    "Civic disputes, business/trade news, leadership awards, and legal "
-    "matters are out of scope even when the people involved are Jain."
+    "Content covers the full breadth of genuine Jain community news — "
+    "spiritual/devotional events, civic and community life, business/trade, "
+    "leadership, and institutional news. The only hard exclusion is content "
+    "depicting cruelty, violence, or harm (see CRUELTY_BLOCKLIST); nothing "
+    "is excluded merely for being civic, commercial, or leadership-related."
 )
 
 # ---------------------------------------------------------------------------

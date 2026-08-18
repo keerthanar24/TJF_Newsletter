@@ -35,20 +35,22 @@ target across the whole issue, not a per-section quota, and it never
 overrides the sourcing or scope rules — do not invent an overseas item to
 hit the ratio, and do not drop a genuine India item to rebalance it.
 
-## 2. Scope filter — spiritual and happening events only
+## 2. Scope — general Jain community / foundation news
 
-Before including anything, ask: **is this a spiritual/devotional event
-itself**, not just a story that happens to involve a Jain person,
-organisation, or place?
+This is a Jain Foundation publication, not a spiritual-only newsletter.
+Scope is the full breadth of genuine Jain community life:
 
-- Include: diksha ceremonies, kalyanak observances, festivals/parva,
-  chaturmas entries and programs, vihar/pilgrimage journeys, temple
-  consecrations and renovations, tirth-related religious/security matters
-  directly tied to the site's sanctity.
-- Exclude: business launches, sports/franchise news, civic felicitation
-  ceremonies, leadership awards, legal disputes, and any other story where
-  the "Jain" connection is incidental rather than the substance of the
-  event. (See `config.py`'s `SCOPE_RULE`.)
+- Spiritual/devotional: diksha ceremonies, kalyanak observances,
+  festivals/parva, chaturmas entries and programs, vihar/pilgrimage
+  journeys, temple consecrations and renovations, tirth news.
+- Civic and community life, business/trade (e.g. JITO chapter launches and
+  events), leadership (awards, appointments, forums), and institutional
+  news (foundations, educational programs) — all in scope for their
+  matching section (see `config.py`'s `SECTIONS`).
+
+The only hard exclusion is content depicting cruelty, violence, or harm
+(see step 3 and `config.py`'s `SCOPE_RULE`/`CRUELTY_BLOCKLIST`). Nothing is
+excluded merely for being civic, commercial, or leadership-related.
 
 ## 3. Content restriction — no cruelty or violence
 

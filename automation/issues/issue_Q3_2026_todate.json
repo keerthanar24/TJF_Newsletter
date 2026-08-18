@@ -9,14 +9,24 @@
     "cover_image_path": "assets/cover.jpg",
     "cover_image_alt": "Shatrunjaya hill Jain temple complex at sunrise, full view",
     "cover_teasers": [
+      "'Peacock Feather' Row Escalates as Jain Groups Seek PM Probe",
       "Neminath's Moksha, Janma & Diksha Kalyanak Observed",
-      "Acharya Vardhamana Sagara Maharaj Attains Samadhi After Sallekhana",
       "Hindu-Jain Temple of Monroeville Marks 40th Anniversary"
     ]
   },
-  "editors_note": "This edition covers Q3 2026 to date (July 1 – August 18) and is restricted to spiritual events and happenings only. Every headline is dated and sourced from a trusted outlet. Where no verifiable spiritual news was found for a section, it is left honestly empty rather than filled. Note: sourcing this cycle skewed heavily India-based (roughly 94% India / 6% overseas against an 80/20 target) — genuine overseas spiritual news was thin this quarter, and no item was invented or dropped to rebalance the ratio.",
+  "editors_note": "This edition covers Q3 2026 to date (July 1 – August 18). As a Jain Foundation publication, its scope is the full breadth of genuine Jain community news — spiritual and devotional life alongside civic, business, and leadership news — not spiritual events alone. The only hard content restriction is on cruelty or violence. Every headline is dated and sourced from a trusted outlet. Where no verifiable news was found for a section, it is left honestly empty rather than filled. Note: sourcing this cycle skewed heavily India-based (roughly 85% India / 15% overseas against an 80/20 target) — no item was invented or dropped to force the ratio.",
   "sections": {
-    "Top News": { "items": [] },
+    "Top News": {
+      "items": [
+        {
+          "location": "Mumbai, Maharashtra",
+          "headline": "'Peacock Feather' Row Escalates as Jain Groups Seek PM Probe",
+          "body": "After former Union Minister Maneka Gandhi linked lobbying against a peacock-feather ban to illegal poaching — feathers are used for monks' pichhika whisks — the Vishva Jain Sangathan petitioned the Prime Minister for an inquiry, insisting the feathers come only from naturally shed birds. Protests followed in Uttar Pradesh into early July.",
+          "source": "Free Press Journal, ANI, ETV Bharat",
+          "date": "Jun 30 – Jul 10, 2026"
+        }
+      ]
+    },
     "New Diksha Announcements": {
       "items": [
         {
@@ -59,6 +69,13 @@
     },
     "Community News": {
       "items": [
+        {
+          "location": "Malad East, Mumbai",
+          "headline": "'White Stripe' Road-Marking Dispute Flares Again",
+          "body": "Chemical markings painted on Daftari Road to guide barefoot Jain monks and nuns through Malad East were defaced by MNS workers with \"public objection\" graffiti and later repainted by the BMC — the latest flashpoint in Mumbai's recurring dispute over religious accommodations on public roads.",
+          "source": "Free Press Journal",
+          "date": "Jul 18, 2026"
+        },
         {
           "location": "Kunthalgiri, Maharashtra",
           "headline": "Acharya Vardhamana Sagara Maharaj Attains Samadhi After Sallekhana",
@@ -165,8 +182,52 @@
         }
       ]
     },
-    "Jain Leadership / Forums": { "items": [] },
-    "Jain Business & Trade": { "items": [] },
-    "Other Community News / Announcements": { "items": [] }
+    "Jain Leadership / Forums": {
+      "items": [
+        {
+          "location": "Miami, Florida, USA",
+          "headline": "JITO USA Launches New Miami Chapter",
+          "body": "The Jain International Trade Organisation's US arm launched a Miami initiative — a hybrid in-person and video gathering connecting the local Jain business community with JITO leadership in India. 21 founding members took the JITO oath at the launch, hosted at Florida International University.",
+          "source": "JITO USA",
+          "date": "Aug 9, 2026"
+        },
+        {
+          "location": "Houston, Texas, USA",
+          "headline": "Houston's Swatantra Jain Named 2026 Sangh Seva Puraskar Recipient",
+          "body": "Swatantra Jain, founder and chairman of Jain Vishwa Bharati–Houston, was announced as recipient of the Sangh Seva Puraskar 2026 — conferred by Jain Vishwa Bharati, Ladnun — recognising decades of institution-building and service to the diaspora Jain community.",
+          "source": "Maneesh Media",
+          "date": "Jul 2026"
+        }
+      ]
+    },
+    "Jain Business & Trade": {
+      "items": [
+        {
+          "location": "Bengaluru, Karnataka",
+          "headline": "Bangalore Blasters Unveiled for Inaugural JITO Premier League",
+          "body": "Navrathan Jewellers and Jain Sports Group jointly launched the \"Bangalore Blasters\" cricket franchise for JITO Premier League Season 1, with cricket legend Kapil Dev attending, ahead of the tournament in Colombo (Aug 24–Sept 5).",
+          "source": "The Tribune, ANI",
+          "date": "Aug 11–12, 2026"
+        }
+      ]
+    },
+    "Other Community News / Announcements": {
+      "items": [
+        {
+          "location": "Lucknow, Uttar Pradesh",
+          "headline": "Rashtrahit Vichar Goshthi evam Samman Samaroh",
+          "body": "A discussion forum on national interest paired with a felicitation ceremony honoring distinguished Jain community members across professional fields — chartered accountants, doctors, lawyers, professors, engineers, and government officials.",
+          "source": "Amar Bharti",
+          "date": "Aug 9, 2026"
+        },
+        {
+          "location": "New Brunswick, New Jersey, USA",
+          "headline": "Young Jains of America Holds 17th Biennial Convention",
+          "body": "More than 800 Jain youth from across North America and abroad gathered for YJA's four-day convention, themed \"The Art of the In-Between,\" exploring Jain values alongside contemporary life through workshops, speakers, and cultural programming.",
+          "source": "YJA (Young Jains of America)",
+          "date": "Jul 2–5, 2026"
+        }
+      ]
+    }
   }
 }

@@ -66,19 +66,28 @@ Note the one deliberate exception: voluntary religious death observances
 (Sallekhana / Samadhi Marana) are legitimate spiritual content and should
 be included when genuinely reported — they are not "cruelty."
 
-## 4. Cover image — exactly one, generated automatically
+## 4. Cover image — exactly one, different from last time when possible
 
 Produce (or select) exactly one cover-quality image depicting a real Jain
-temple, tirth, or spiritual subject for this issue:
+temple, tirth, or spiritual subject for this issue, in this priority order:
 
-- If an image-generation tool is available and has credit/quota, generate
-  one fresh image appropriate to the quarter's leading story or a general
-  devotional/tirth scene.
-- If generation is unavailable, fall back to the most recent previously-used
-  cover image rather than leaving the cover blank or using a placeholder.
-- Save it to `assets/cover.jpg` (or update `cover_image_path` in the
-  content JSON to point at wherever it's saved) and write a real, literal
-  `cover_image_alt` description of what's in the photo.
+1. **Generate fresh, if possible.** If an image-generation tool is
+   available and has credit/quota, generate one image appropriate to the
+   quarter's leading story or a general devotional/tirth scene. Add it to
+   `assets/covers/` (a real, literal filename) so it joins the rotation
+   pool for future issues too.
+2. **Otherwise, rotate.** Run `python3 cover_picker.py` — it deterministically
+   returns the least-recently-used real photo from `assets/covers/`, so the
+   cover is deliberately different from the last few issues rather than a
+   repeat. (With only one photo currently in the pool, it will say so and
+   return that same photo — that's expected until more real photos are
+   added, not a bug.)
+3. **Never** leave the cover blank or use a placeholder/fabricated image.
+
+Set `cover_image_path` in the content JSON to whichever photo was chosen,
+write a real, literal `cover_image_alt` description of what's in it, and
+after rendering, run `python3 cover_picker.py --record <filename>` so the
+rotation history reflects this issue's choice for next quarter.
 
 ## 5. Write the content JSON
 

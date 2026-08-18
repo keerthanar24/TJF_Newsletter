@@ -156,10 +156,20 @@ HAS_BACK_COVER = True
 # Cover image
 # ---------------------------------------------------------------------------
 COVER_IMAGE_POLICY = (
-    "Exactly one cover image per issue, generated or selected automatically "
-    "as part of the quarterly run. It must depict a real Jain "
-    "temple/tirth/spiritual subject — never text, logos, or unrelated "
-    "imagery. If image generation is unavailable that cycle, fall back to "
-    "the most recent previously-used cover image rather than skipping the "
-    "cover or inventing a placeholder."
+    "Exactly one cover image per issue, chosen automatically as part of the "
+    "quarterly run, in this priority order: (1) a freshly generated image "
+    "tied to that quarter's leading story, if an image-generation tool is "
+    "available and has quota; (2) otherwise, the next photo from the "
+    "rotation pool in assets/covers/ (see cover_picker.py) — a deliberately "
+    "different photo than the last few issues used, not a repeat; "
+    "(3) never a placeholder or fabricated image. It must always depict a "
+    "real Jain temple/tirth/spiritual subject — never text, logos, or "
+    "unrelated imagery."
+)
+COVER_ROTATION_NOTE = (
+    "The rotation pool currently holds only one real photo (Girnar/"
+    "Shatrunjaya), so every issue reuses it until more real photos are "
+    "added to assets/covers/ — cover_picker.py reports this honestly "
+    "rather than silently faking variety. Add more real photos to the pool "
+    "over time to make the rotation meaningful."
 )

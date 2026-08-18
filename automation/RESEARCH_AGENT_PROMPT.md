@@ -19,11 +19,21 @@ required sections (listed in `config.py`, `SECTIONS`). For each section:
 - Never use unattributed blogs, anonymous aggregators, or unverified social
   posts as a sole source.
 - Every item must have: a real headline, location, source outlet name, a
-  specific date within the quarter window, a 2–4 sentence factual summary
-  with no embellishment, and — whenever you have it — the article's real
-  **`url`**, so readers can click through and read it in full. Never invent
-  a URL; if the real one wasn't captured, omit the `url` field for that
-  item rather than guessing or reusing another item's link.
+  specific date within the quarter window, and — whenever you have it — the
+  article's real **`url`**, so readers can click through and read it in
+  full. Never invent a URL; if the real one wasn't captured, omit the `url`
+  field for that item rather than guessing or reusing another item's link.
+- **Do not artificially shorten the news.** Write as much genuine factual
+  detail as the source actually supports — full context, names, figures,
+  quotes if reported, background — not a minimal 2-4 sentence blurb. A
+  thin one-line source only supports a short item; a well-covered story
+  should get a correspondingly full write-up. Never pad with invented
+  detail to make an item look longer than the source supports, either —
+  length should track how much the source actually said, in both
+  directions.
+- **Cover more ground, not just longer entries.** Where multiple genuine,
+  distinct items exist for a category within the window, include all of
+  them rather than picking just one or two representative examples.
 - **If nothing genuine is found for a section, leave it empty.** Do not
   stretch dates, do not paraphrase an out-of-window event into looking
   current, and do not invent an item. An empty section in the output JSON

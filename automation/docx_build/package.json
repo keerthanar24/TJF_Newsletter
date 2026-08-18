@@ -1,0 +1,9 @@
+{
+  "name": "jain-magazine-docx-builder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Renders a Jain Magazine content JSON into a Word (.docx) document.",
+  "dependencies": {
+    "docx": "^9.0.0"
+  }
+}

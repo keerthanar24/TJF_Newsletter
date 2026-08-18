@@ -77,7 +77,7 @@ CRUELTY_BLOCKLIST = [
     "murder", "murdered", "assault", "assaulted", "violence", "violent",
     "cruelty", "abuse", "abused", "wildlife attack", "animal attack",
     "lion attack", "gore", "gored", "stabbed", "shooting", "shot dead",
-    "beaten", "lynch", "riot", "bloodshed",
+    "beaten", "lynch", "riot", "bloodshed", "poaching", "poached",
 ]
 # Note: this list intentionally does NOT include words like "death",
 # "samadhi", "sallekhana", or "passed away" — voluntary religious death

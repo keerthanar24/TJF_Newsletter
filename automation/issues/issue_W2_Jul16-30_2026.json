@@ -20,7 +20,7 @@
         {
           "location": "Jain Vishva Bharati, Ladnun, Rajasthan",
           "headline": "Terapanth's 267th Foundation Day Observed Under Acharya Mahashraman",
-          "body": "The Jain Śvetāmbara Terapanth Dharmasangh observed its 267th Foundation Day on Ashadhi Purnima, presided over by its 11th Acharya, Mahashraman — his first major discourse of this year's Chaturmas. Themed \"Terapanth Will Endure Forever,\" the occasion was simultaneously marked at Terapanth centers nationwide.",
+          "body": "The Jain Śvetāmbara Terapanth Dharmasangh observed its 267th Foundation Day on Ashadhi Purnima, presided over by its 11th Acharya, Mahashraman — his first major discourse of this year's Chaturmas. Themed \"Terapanth Will Endure Forever,\" the occasion was simultaneously marked at Terapanth centers nationwide, including at Sri Dungargarh, where senior sadhvi Lakshyaprabha addressed a separate gathering on the theme of self-awakening and the order's founding ideals — a reminder that the observance reached beyond Ladnun into the wider Terapanth monastic and lay community on the same day.",
           "source": "Free Press Journal, Sri Dungargarh Times",
           "date": "Jul 29, 2026",
           "url": "https://www.freepressjournal.in/indore/terapanth-marks-267th-foundation-day-in-presence-of-acharya-mahashraman"
@@ -55,6 +55,14 @@
     },
     "Guru Maharaj Pravesh & Chaturmas Announcements": {
       "items": [
+        {
+          "location": "Raipur, Chhattisgarh",
+          "headline": "Muni Samvegaratna Sagar Ji's Chaturmas Mangal Pravesh With Shobhayatra",
+          "body": "The Sri Jain Shvetambar Murtipoojak Sangh organized a procession (shobhayatra) from Sri Rishabdev Temple to Sri Gnanvallabh Upashraya in Vivekanand Nagar, welcoming Muni Samvegaratna Sagar Ji and his monastic group for their Chaturmas stay with chants, kalash, and dharma flags carried through the streets.",
+          "source": "ASR24 News",
+          "date": "Jul 22, 2026",
+          "url": "https://asr24.news/chhattisgarh/auspicious-entry-for-samvegaratna-sagar.html"
+        },
         {
           "location": "Raipur, Chhattisgarh",
           "headline": "Muni Aagam Sagar Ji's Mangal Pravesh Marks Bada Mandir's First Chaturmas in 18 Years",
@@ -100,7 +108,18 @@
         }
       ]
     },
-    "Jain Business & Trade": { "items": [] },
+    "Jain Business & Trade": {
+      "items": [
+        {
+          "location": "Dalalbaag, Indore, Madhya Pradesh",
+          "headline": "Business Families Bid Up to ₹53 Crore for the Honor of Installing the Ceremonial Kalash",
+          "body": "Ahead of Muni Sudhasagar Ji's four-month Chaturmas stay in Indore, trading and business families placed devotional bids — a traditional boli practice — to install the mangal kalash, with total bids across the community reaching ₹53 crore. The top individual bid, ₹16.16 crore, was shared by Sapna Manish Godha and Naveen Anand Godha, securing the first kalash. Senior Acharya Sunil Sagar Maharaj publicly urged that such offerings should serve devotion rather than become a display of wealth, prompting community reflection on the scale of the bidding.",
+          "source": "Amar Ujala, Lalluram",
+          "date": "Jul 30, 2026",
+          "url": "https://www.amarujala.com/madhya-pradesh/indore/indore-news-total-bids-reaching-up-to-53-crore-for-muni-shri-sudhasagar-s-chaturmas-in-indore-2026-07-30"
+        }
+      ]
+    },
     "Other Community News / Announcements": { "items": [] }
   }
 }

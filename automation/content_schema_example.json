@@ -2,10 +2,10 @@
   "issue": {
     "title": "Jain Magazine",
     "volume": "II",
-    "edition": "Q3 2026",
-    "publish_date": "2026-09-30",
-    "coverage_start": "2026-07-01",
-    "coverage_end": "2026-09-30",
+    "edition": "August 2026",
+    "publish_date": "2026-08-31",
+    "coverage_start": "2026-08-01",
+    "coverage_end": "2026-08-31",
     "cover_image_path": "assets/cover.jpg",
     "cover_image_alt": "Shatrunjaya hill Jain temple complex at sunrise",
     "cover_teasers": [
@@ -16,6 +16,7 @@
   },
   "editors_note": "Internal record only — not rendered in the magazine output. Free text describing this issue's sourcing/scope notes for editorial reference.",
   "sections": {
+    "Global Jain Community News": { "items": [] },
     "Top News": { "items": [] },
     "New Diksha Announcements": { "items": [] },
     "Tirthankar Kalyanak": {
@@ -27,19 +28,21 @@
           "source": "Jain Tithi Panchang (Samyakdarshan.org, Sus Jain Mandir Calendar)",
           "date": "2026-08-17",
           "url": "https://www.samyakdarshan.org/example-panchang-page",
-          "_confidence_internal": "Corroborated by two independent panchang sources; not shown in final layout. 'url' above IS shown (as a clickable link next to the source line) — omit the 'url' field entirely, don't fabricate one, if the real link wasn't captured during research."
+          "image_url": "https://www.samyakdarshan.org/example-panchang-page/example-photo.jpg",
+          "_confidence_internal": "Corroborated by two independent panchang sources; not shown in final layout. 'url' and 'image_url' above ARE shown (as clickable links beneath the item) — omit either field entirely, don't fabricate one, if the real link wasn't captured during research."
         }
       ]
     },
     "Jain Festivals / Parva": { "items": [] },
-    "Community News": { "items": [] },
     "Guru Maharaj Pravesh & Chaturmas Announcements": { "items": [] },
     "New Temples & Tirth Renovation": { "items": [] },
     "Jain Tirth News": { "items": [] },
     "Jain Vihar": { "items": [] },
-    "The Jain Foundation News": { "items": [] },
+    "Other Community News / Announcements": { "items": [] },
     "Jain Leadership / Forums": { "items": [] },
     "Jain Business & Trade": { "items": [] },
-    "Other Community News / Announcements": { "items": [] }
+    "Historical Data / Archaeological News": { "items": [] },
+    "Controversial Data": { "items": [] },
+    "Jain People Recognized Anywhere": { "items": [] }
   }
 }

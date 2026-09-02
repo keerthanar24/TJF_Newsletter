@@ -15,12 +15,13 @@ const MUTED = "6B5F4D";
 const SOURCE = "8A7A5C";
 
 const SECTIONS_ORDER = [
-  "Top News", "New Diksha Announcements", "Tirthankar Kalyanak",
-  "Jain Festivals / Parva", "Community News",
+  "Global Jain Community News", "Top News", "New Diksha Announcements",
+  "Tirthankar Kalyanak", "Jain Festivals / Parva",
   "Guru Maharaj Pravesh & Chaturmas Announcements",
   "New Temples & Tirth Renovation", "Jain Tirth News", "Jain Vihar",
-  "The Jain Foundation News", "Jain Leadership / Forums",
-  "Jain Business & Trade", "Other Community News / Announcements",
+  "Other Community News / Announcements", "Jain Leadership / Forums",
+  "Jain Business & Trade", "Historical Data / Archaeological News",
+  "Controversial Data", "Jain People Recognized Anywhere",
 ];
 
 function rule() {
@@ -71,6 +72,19 @@ function bodyText(text) {
     children: [new TextRun({ text, size: 21, color: "33291F", font: "Arial" })],
   });
 }
+function imageLink(url) {
+  if (!url) return null;
+  return new Paragraph({
+    spacing: { after: 40 },
+    children: [
+      new TextRun({ text: "Image:  ", bold: true, size: 15, color: SOURCE, font: "Arial" }),
+      new ExternalHyperlink({
+        link: url,
+        children: [new TextRun({ text: url, size: 15, color: "1155CC", underline: {}, font: "Arial" })],
+      }),
+    ],
+  });
+}
 function emptyNote(text) {
   return new Paragraph({
     spacing: { after: 200 },
@@ -117,6 +131,8 @@ for (const name of SECTIONS_ORDER) {
     children.push(itemHeadline(it.headline || ""));
     children.push(locDateWithLink(`${it.location || ""} · Source: ${it.source || ""} · ${it.date || ""}`, it.url));
     children.push(bodyText(it.body || ""));
+    const img = imageLink(it.image_url);
+    if (img) children.push(img);
   });
 }
 

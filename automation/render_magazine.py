@@ -119,7 +119,8 @@ h2.page-title { font-family:"Liberation Serif",Georgia,serif; font-weight:700; f
 .item .headline { font-family:"Liberation Serif",Georgia,serif; font-weight:700; font-size:19px; margin:0 0 8px 0; color:#1c1712; }
 .item .body-text { font-size:14.5px; line-height:1.5; color:#33291f; margin:0 0 6px 0; }
 .item .source-line { font-size:10.5px; letter-spacing:0.5px; color:#9a8c6e; text-transform:uppercase; font-weight:700; }
-.item .source-line a.source-link { color:#b9541f; text-decoration:underline; }
+.item .source-line a.source-link, .item .image-line a.source-link { color:#b9541f; text-decoration:underline; }
+.item .image-line { font-size:9.5px; letter-spacing:0.3px; color:#9a8c6e; margin-top:2px; word-break:break-all; }
 .empty-note { font-size:13px; font-style:italic; color:#6b5f4d; padding:4px 0 8px 0; }
 
 /* ---- Back cover ---- */
@@ -196,12 +197,19 @@ def build_section_block(name: str, data: dict) -> str:
                 source_html = f'<a href="{esc(url)}" class="source-link">{source_text} &rarr; Read full article</a>'
             else:
                 source_html = source_text
+
+            image_html = ""
+            image_url = it.get("image_url")
+            if image_url:
+                image_html = f'<div class="image-line"><a href="{esc(image_url)}" class="source-link">Image &rarr; {esc(image_url)}</a></div>'
+
             parts.append(f"""
   <div class="item">
     <div class="loc">{esc(it.get('location',''))}</div>
     <div class="headline">{esc(it.get('headline',''))}</div>
     <div class="body-text">{esc(it.get('body',''))}</div>
     <div class="source-line">{source_html}</div>
+    {image_html}
   </div>""")
         body = "".join(parts)
     return f"""
@@ -236,6 +244,7 @@ IN_SECTION_DIVIDER = 0.42      # .section-block + .section-block border/padding
 IN_EMPTY_NOTE = 0.35
 IN_ITEM_LOC_LINE = 0.20
 IN_ITEM_SOURCE_LINE = 0.22
+IN_ITEM_IMAGE_LINE = 0.20      # extra line when an item carries an image_url
 IN_ITEM_MARGIN = 0.28          # .item margin-bottom + divider between items
 IN_LINE_HEIGHT_BODY = 0.225    # one wrapped line of .body-text at 1.5 line-height
 IN_LINE_HEIGHT_HEADLINE = 0.30  # one wrapped line of .headline at 1.2 line-height
@@ -248,11 +257,13 @@ def _lines(text: str, chars_per_line: int) -> int:
 def item_height_in(item: dict) -> float:
     headline_lines = _lines(item.get("headline", ""), CHARS_PER_LINE_HEADLINE)
     body_lines = _lines(item.get("body", ""), CHARS_PER_LINE_BODY)
+    image_extra = IN_ITEM_IMAGE_LINE if item.get("image_url") else 0.0
     raw = (
         IN_ITEM_LOC_LINE
         + headline_lines * IN_LINE_HEIGHT_HEADLINE
         + body_lines * IN_LINE_HEIGHT_BODY
         + IN_ITEM_SOURCE_LINE
+        + image_extra
         + IN_ITEM_MARGIN
     )
     return raw * CALIBRATION_FACTOR

@@ -1,0 +1,170 @@
+{
+  "issue": {
+    "title": "Jain Magazine",
+    "volume": "II",
+    "edition": "August 2026",
+    "publish_date": "2026-08-18",
+    "coverage_start": "2026-08-01",
+    "coverage_end": "2026-08-18",
+    "cover_image_path": "assets/cover.jpg",
+    "cover_image_alt": "Shatrunjaya hill Jain temple complex at sunrise, full view",
+    "cover_teasers": [
+      "Muni Agam Sagar's Sangh Enters Raipur's Bada Mandir After 18-Year Gap",
+      "First-Ever Jain Icon Award 2026 Held in Udaipur",
+      "JITO USA Opens Miami Chapter, Hosts Global Youth Summit"
+    ]
+  },
+  "editors_note": "Compiled from five parallel research passes covering Aug 1-18, 2026 under the new 15-category, Hindi/social/newsletter-first sourcing rules. Nearly no image_url could be captured this cycle because WebFetch was blocked by this session's network egress policy for every outlet domain attempted (Hindi regional press, JITO USA, ASI/heritage sites, even Wikipedia) -- so sourcing relied on WebSearch snippets, not raw article pages, and article-embedded photos could not be pulled. Several genuine leads were excluded for falling one day outside the window (e.g. a Sammed Shikharji/Parasnath 'Har Har Mahadev' dispute and a Mainpuri Jain-statue find, both dated Aug 19) or for lacking a confirmed in-window date (a Bhopal chaturmas item, several Jain Leadership election/appointment stories). Two live Girnar/Palitana Tirth stories were excluded outright under the cruelty exclusion (a fatal wildlife attack on a pilgrim). Global Jain Community News, New Diksha Announcements, Tirthankar Kalyanak, New Temples & Tirth Renovation, Jain Tirth News, Jain Vihar (expected -- monks are stationary for Chaturmas through mid-Nov), Jain Leadership/Forums, Controversial Data, and Jain People Recognized Anywhere are all genuinely empty for this window, not omitted for convenience.",
+  "sections": {
+    "Global Jain Community News": { "items": [] },
+    "Top News": {
+      "items": [
+        {
+          "location": "Malviya Road, Raipur, Chhattisgarh",
+          "headline": "Muni Agam Sagar Maharaj's Sangh Enters Raipur's Digambar Jain Bada Mandir After 18-Year Gap — \"Historic\" Mangal Kalash Sthapana",
+          "body": "Param Pujya Muni 108 Shri Agam Sagar Ji Maharaj and his monastic sangh entered the Shri Digambar Jain Bada Mandir on Malviya Road, Raipur, for the \"Shri Navodaya Teerth Varshayog 2026\" -- the first time in 18 years, per the organizing committee, that a muni sangh has taken chaturmas residence at this specific temple. Haribhoomi's own headline calls it \"historic.\" The published schedule ran a kalash yatra (ceremonial pot procession) at 8 AM, abhishek (ritual idol-bathing) and shanti-dhara at 9 AM, and the main Mangal Kalash Sthapana ceremony with cultural programs at 1 PM.",
+          "source": "Haribhoomi; corroborated by Glibs",
+          "date": "2026-08-02",
+          "url": "https://www.haribhoomi.com/state-local/chhattishgarh/news/raipur-jain-temple-mangal-kalash-installation-agam-sagar-organizing-committee-106088"
+        },
+        {
+          "location": "Shubh Kesar Garden, 100 Feet Road, Udaipur, Rajasthan",
+          "headline": "First-Ever \"Jain Icon Award 2026\" Held in Udaipur, Honouring 60+ Jain Content Creators and Community Figures",
+          "body": "Billed as the first event of its kind in Udaipur, the three-day Jain Icon Award 2026 (August 14-16, concluding ceremony August 17) honoured more than 60 individuals described as having \"influenced Jainism\" -- content creators, propagators of Jain values, and community figures -- held under the presence and blessings of Paramapujya Shrutsamvegi Mahashramanan Muni Aditya Sagar Maharaj. The concluding ceremony on August 17 saw five distinguished individuals receive the top honour, the \"Jain Idol Award.\"",
+          "source": "Udaipur Views",
+          "date": "2026-08-14",
+          "url": "https://www.udaipurviews.com/jain-history-created-in-udaipur-jain-icon-award-2026-concluded-with-grandeur/"
+        }
+      ]
+    },
+    "New Diksha Announcements": { "items": [] },
+    "Tirthankar Kalyanak": { "items": [] },
+    "Jain Festivals / Parva": { "items": [] },
+    "Guru Maharaj Pravesh & Chaturmas Announcements": {
+      "items": [
+        {
+          "location": "Chitrakootdham & Suryamahal (Shastrinagar), Bhilwara, Rajasthan",
+          "headline": "Acharya (Rashtra Sant) Pulaksagar Ji Maharaj's Chaturmas Formally Begins in Bhilwara; Gyan Ganga Mahotsav Announced",
+          "body": "Acharya Pulaksagar Ji Maharaj, who had entered Bhilwara for chaturmas on July 25 with a grand procession, held a Guru Gunanuvad program at Chitrakootdham on August 1, followed by the formal Chaturmasik Mangal Kalash Sthapana on August 2 at 1 PM. Daily chaturmas discourses began August 3, 8:30-10 AM, at Suryamahal, Shastrinagar. He stated that the purpose of tapasya (austerity) is to carry its fruit to the shravak (lay follower) community. A \"Gyan Ganga Mahotsav\" at Chitrakootdham was announced to run August 15-30, with special sessions planned around Moksh Saptami (Aug 19) and Raksha Bandhan (Aug 28).",
+          "source": "Pratahkal (multiple corroborating articles)",
+          "date": "2026-08-02",
+          "url": "https://www.pratahkal.com/bhilwara/bhilwara-jain-sant-pulaksagar-ji-chatumash-kalash-sthapna-1618896"
+        },
+        {
+          "location": "Sri Adinath Digambar Jain Punyoday Atishay Kshetra (Nasiyaji, Dadabari), Kota, Rajasthan",
+          "headline": "Muni Yogasagar Maharaj Holds His First-Ever Varshayog (Chaturmas) in Rajasthan",
+          "body": "A grand Varshayog Kalash Sthapana Mahamahotsav was held on August 9 (a Sunday) under the guidance of Muni Shri 108 Yogasagar Maharaj, reported as his first-ever varshayog/chaturmas stay in Rajasthan. Devotees were reported converging from across the country for the ceremony at the Sri Adinath Digambar Jain Punyoday Atishay Kshetra.",
+          "source": "Pratahkal (two corroborating articles)",
+          "date": "2026-08-09",
+          "url": "https://www.pratahkal.com/kota/munishree-yogasagar-varshayog-chaturmas-kota-rajasthan-1617096"
+        },
+        {
+          "location": "Rishabh Sabhagrih, Adinath Jinalaya, Chhatrapati Nagar, Indore, Madhya Pradesh",
+          "headline": "Muni Sudhasagar Ji Maharaj Delivers Special Guidance Address to Youth in Indore",
+          "body": "Muni Pungav Shri 108 Sudhasagar Ji Maharaj -- referred to as \"Mahashraman of Shraman culture\" -- delivered a special guidance discourse to youth on Dharma, Sanskriti (tradition), and Rashtra Nirman (nation-building) on Sunday, August 9, jointly organised by Sakal Digambar Jain Dharm Prabhavana Samiti Indore and Sakal Jain Samaj Indore.",
+          "source": "Paliwalwani",
+          "date": "2026-08-09",
+          "url": "https://paliwalwani.com/indore/special-guidance-address-to-the-youth-of-mahashraman-muni-sudhasagar-ji-maharaj-of-the-most-revered-"
+        },
+        {
+          "location": "Digambar Jain Mandir, Main Road, Ramgarh, Jharkhand",
+          "headline": "First-Ever Muni Sangh Chaturmas Hosted in Ramgarh",
+          "body": "The Digambar Jain Samaj of Ramgarh performed a Mangal Kalash Sthapana on August 5, marking the first-ever muni sangh chaturmas hosted in the town. The presiding monks, Muni Shri Punyanand Ji and Muni Shri Shubhanand Ji (disciples of Acharya Shri Vasunandi), had already been resident at the jinalaya for about two months prior. Yogesh Sethi, secretary of the Jain Samaj and convenor of the Pawan Varshayog Maha-Samiti, was quoted on the significance of the occasion.",
+          "source": "Prabhat Khabar",
+          "date": "2026-08-05",
+          "url": "https://www.prabhatkhabar.com/state/jharkhand/ramgarh/digambar-jain-temple-chaturmas-kalash-sthapana-2026-08-05"
+        },
+        {
+          "location": "Pushpagiri Jain Tirth (near Sonkatch, Indore-Bhopal road), Madhya Pradesh",
+          "headline": "Two-Day Pattavibhushan Sanskar Mahotsav Held for Acharya Prasannasagar Ji at Pushpagiri Tirth",
+          "body": "A two-day \"Pattavibhushan Sanskar Mahotsav\" -- a ceremonial monastic title-conferral observance -- was held August 15-16 for Acharya Shri 108 Prasannasagar Ji Maharaj at Pushpagiri Jain Tirth, under the guidance of the tirth's founder-guide, Ganacharya Shri 108 Pushpadant Sagar Ji Maharaj, organised by Antarmana Dharmik evam Parmarthik Nyas, Pushpagiri Tirth.",
+          "source": "Paliwalwani",
+          "date": "2026-08-15",
+          "url": "https://paliwalwani.com/indore/pattavibhushan-sanskar-mahotsav-on-15-16-august-at-pushpagiri-tirtha"
+        }
+      ]
+    },
+    "New Temples & Tirth Renovation": { "items": [] },
+    "Jain Tirth News": { "items": [] },
+    "Jain Vihar": { "items": [] },
+    "Other Community News / Announcements": {
+      "items": [
+        {
+          "location": "Gunayatan, near Shikharji, Jharkhand",
+          "headline": "80th Independence Day Observed at Gunayatan Under Muni Praman Sagar Ji Maharaj's Sangh",
+          "body": "A flag-hoisting (dhvajarohan) ceremony and cultural programs were held at Gunayatan on August 15 under the sanidhya (holy presence) of Muni Praman Sagar Ji Maharaj and his monastic sangh, marking India's 80th Independence Day.",
+          "source": "Muni Praman Sagar Ji's official site (munipramansagar.net)",
+          "date": "2026-08-15",
+          "url": "https://www.munipramansagar.net/gunayatan-independence-day-celebration-15aug2026/"
+        },
+        {
+          "location": "Rajlaxmi Palace, Ashiyana Chauraha, LDA Colony, Kanpur Road, Lucknow, Uttar Pradesh",
+          "headline": "\"Rashtrahit par Vichar Goshthi evam Samman Samaroh\" Honours Distinguished Jain Community Members in Lucknow",
+          "body": "Held as part of the ongoing Ashiyana Digambar Jain Mandir chaturmas programming, this August 9 (Sunday) event at Rajlaxmi Palace combined a discussion session on national interest with a felicitation ceremony. Distinguished members of the Lucknow Jain community -- chartered accountants, doctors, lawyers, professors, engineers, and government officials -- were honoured for their contributions to society and the nation.",
+          "source": "Amar Bharti Media Group; corroborated by Haribhoomi",
+          "date": "2026-08-09",
+          "url": "https://amarbharti.com/rashtrahit-vichar-goshti-samman-samaroh-jain-samaj-lucknow-9-august-2026/"
+        }
+      ]
+    },
+    "Jain Leadership / Forums": { "items": [] },
+    "Jain Business & Trade": {
+      "items": [
+        {
+          "location": "TEOCO headquarters, Fairfax, Virginia, USA",
+          "headline": "JITO USA's Washington DC Chapter Hosts \"Creating Breakthrough Results\" Masterclass With TEOCO Founder Atul Jain",
+          "body": "JITO USA's Washington DC-metro chapter hosted a workshop on August 2 led by Atul Jain, Founder and CEO of TEOCO, drawing executives, community leaders, and professionals from the region. Jain defined a \"breakthrough\" as a 5x-10x shift rather than a marginal 10% gain, drawing on both business strategy and Jain philosophy for his framework.",
+          "source": "JITO USA; corroborated by South Asian Herald and New India Abroad",
+          "date": "2026-08-02",
+          "url": "https://www.jitousa.org/news/jito-dc-hosts-transformative-masterclass-creating-breakthrough-results-with-teoco-founder-atul-jain/"
+        },
+        {
+          "location": "Steven J. Green School of International and Public Affairs, Florida International University, Miami, Florida, USA",
+          "headline": "JITO USA Launches Miami Chapter at Florida International University",
+          "body": "JITO USA's inaugural Miami chapter launch and charter ceremony, held Sunday August 9 (reported August 11), drew 100+ guests -- community members, families, professionals, youth, and academic partners -- and closed with the installation of the chapter's first Executive Committee and the JITO oath. Dr. Arpit Mehta (Chapter Chairman) and Amit Lunavat (Secretary) welcomed guests, and the newly formed JITO USA Miami ladies' wing performed the Navkar Mantra. The event also referenced FIU's endowed chair in Jain Studies -- the first in the US -- established via JERF with help from FIU alumnus Sapan Bafna.",
+          "source": "JITO USA (official)",
+          "date": "2026-08-09",
+          "url": "https://www.jitousa.org/news/jito-usa-launches-miami-chapter-at-florida-international-university/"
+        },
+        {
+          "location": "Virtual / global (JITO Youth wing)",
+          "headline": "JITO Youth E-NSPIRE Summit 2026 Draws Global Participation",
+          "body": "JITO Youth's E-NSPIRE Summit ran August 13-15 as an immersive global event billed with over 10,000 worldwide participants, 30+ speakers, 10+ workshops, and 10+ engagement and entertainment sessions, registered through jitoenspire.com.",
+          "source": "JITO (official event listing)",
+          "date": "2026-08-13",
+          "url": "https://jito.org/events/viewevent/2513-e-nspire-evolvefromhome"
+        }
+      ]
+    },
+    "Historical Data / Archaeological News": {
+      "items": [
+        {
+          "location": "Hampi (Ballari district), Karnataka",
+          "headline": "Rare Nagini and Garuda Sculptures Unearthed Near Hampi Jain Temple",
+          "body": "An ASI excavation team recovered two stone sculptures on August 10 near a Jain temple at the Hampi UNESCO World Heritage Site -- one identified as a Nagini (serpent-woman guardian figure, roughly 30x51 cm), the other as Garuda (roughly 32x37 cm), both in fair condition. Experts framed the find as evidence of religious co-existence within the Vijayanagara Empire.",
+          "source": "The Hans India",
+          "date": "2026-08-10",
+          "url": "https://www.thehansindia.com/news/cities/bengaluru/rare-nagini-and-garuda-sculptures-unearthed-near-hampi-jain-temple-1107838"
+        },
+        {
+          "location": "Achaler village, Lohara taluka, Dharashiv (Osmanabad) district, Maharashtra",
+          "headline": "12th-Century Jain Inscription Found, Pointing to a Lost Vijay Parshvanath Temple",
+          "body": "A two-line Hale Kannada/Sanskrit inscription was found embedded in a step-wall at the Mallikarjun Temple on August 6, identified by independent inscription researcher Krushna Gudade. It records the construction of a \"Vijay Parshvanath Jinalaya\" (Jain temple/basadi) by monk Subhasena Muni of the Yapaniya Sangha. A Parshvanath Tirthankara idol still stands at the site, supporting the reading that a Jain religious centre once stood there.",
+          "source": "Free Press Journal",
+          "date": "2026-08-06",
+          "url": "https://www.freepressjournal.in/india/12th-century-jain-inscription-found-in-dharashiv-reveals-lost-vijay-parshvanath-temple-evidence"
+        },
+        {
+          "location": "Dundigal, Medchal district, Telangana",
+          "headline": "11th-Century Inscription Referencing Jainism and a Basadi Found at Dundigal Temple",
+          "body": "A 41-line pillar inscription in Telugu/Kannada scripts was found on the premises of Lakshminarayana Swamy temple, spotted by local resident Narsannagari Jagan and reported to Haragopal, president of the New Telangana History Group. The inscription records an 11th-century land donation under Kalyani Chalukya king Vikramaditya VI, and separately references Jainism, a basadi (Jain shrine), the \"Soma\" lineage, and depicts a Jain Tirthankara alongside sun/moon and cow-calf motifs -- a mixed-faith inscription with genuine Jain content, though not a purely Jain monument.",
+          "source": "Deccan Chronicle; corroborated by Telangana Today",
+          "date": "2026-08-18",
+          "url": "https://www.deccanchronicle.com/southern-states/telangana/11th-century-jain-inscription-discovered-in-dundigal-1980665"
+        }
+      ]
+    },
+    "Controversial Data": { "items": [] },
+    "Jain People Recognized Anywhere": { "items": [] }
+  }
+}

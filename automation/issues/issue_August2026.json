@@ -3,18 +3,18 @@
     "title": "Jain Magazine",
     "volume": "II",
     "edition": "August 2026",
-    "publish_date": "2026-08-18",
+    "publish_date": "2026-08-31",
     "coverage_start": "2026-08-01",
-    "coverage_end": "2026-08-18",
+    "coverage_end": "2026-08-31",
     "cover_image_path": "assets/cover.jpg",
     "cover_image_alt": "Shatrunjaya hill Jain temple complex at sunrise, full view",
     "cover_teasers": [
       "Muni Agam Sagar's Sangh Enters Raipur's Bada Mandir After 18-Year Gap",
-      "First-Ever Jain Icon Award 2026 Held in Udaipur",
-      "JITO USA Opens Miami Chapter, Hosts Global Youth Summit"
+      "Seven Take Diksha Together in Sikar — First Time in 39 Years",
+      "Sammed Shikharji Dispute Reignites Jain Fears Over Sacred Site's Identity"
     ]
   },
-  "editors_note": "Compiled from five parallel research passes covering Aug 1-18, 2026 under the new 15-category, Hindi/social/newsletter-first sourcing rules. Nearly no image_url could be captured this cycle because WebFetch was blocked by this session's network egress policy for every outlet domain attempted (Hindi regional press, JITO USA, ASI/heritage sites, even Wikipedia) -- so sourcing relied on WebSearch snippets, not raw article pages, and article-embedded photos could not be pulled. Several genuine leads were excluded for falling one day outside the window (e.g. a Sammed Shikharji/Parasnath 'Har Har Mahadev' dispute and a Mainpuri Jain-statue find, both dated Aug 19) or for lacking a confirmed in-window date (a Bhopal chaturmas item, several Jain Leadership election/appointment stories). Two live Girnar/Palitana Tirth stories were excluded outright under the cruelty exclusion (a fatal wildlife attack on a pilgrim). Global Jain Community News, New Diksha Announcements, Tirthankar Kalyanak, New Temples & Tirth Renovation, Jain Tirth News, Jain Vihar (expected -- monks are stationary for Chaturmas through mid-Nov), Jain Leadership/Forums, Controversial Data, and Jain People Recognized Anywhere are all genuinely empty for this window, not omitted for convenience.",
+  "editors_note": "Full-month compile (Aug 1-31, 2026), researched via ten parallel agent passes (five for Aug 1-18, five more for Aug 19-31) under the 15-category, Hindi/social/newsletter-first sourcing rules. This supersedes the earlier Aug 1-18-only edition, which mistakenly carried the 'August 2026' edition label while only covering through the 18th. New in this full-month pass: two items dated Aug 2 and Aug 6 (Bhopal chaturmas kalash sthapana with CM Mohan Yadav; JITO Chennai employment drive) were confirmed and folded into the first half of the month; the Sammed Shikharji/Parasnath dispute -- which broke Aug 19, one day after the prior edition's cutoff -- is now in-window and covered under Controversial Data with neutral, both-sides framing per policy, since it stayed a verbal/protest dispute (no violence, so not cruelty-excluded), while the parallel Girnar lion-attack story remains excluded outright under the cruelty rule regardless of window. Global Jain Community News, New Temples & Tirth Renovation's Pipli B renovation lead, Jain Yuva Sangh Bhilai's leadership item, and JITO USA's Miami Initiative hybrid launch were all found but excluded for lacking a confirmed in-window date, not for lack of research. As before, almost no image_url could be captured because WebFetch was blocked for essentially every outlet domain across all ten research passes -- every item still carries a real source url. Confirmed genuinely empty for the full month: Global Jain Community News, Jain Vihar (expected -- monks are stationary through Chaturmas to mid-November), and Jain Tirth News (the two live Tirth stories in this window -- the Girnar lion attack and the Sammed Shikharji dispute -- are handled under the cruelty exclusion and Controversial Data respectively, so nothing remained for a neutral 'Tirth News' entry).",
   "sections": {
     "Global Jain Community News": { "items": [] },
     "Top News": {
@@ -37,11 +37,84 @@
         }
       ]
     },
-    "New Diksha Announcements": { "items": [] },
-    "Tirthankar Kalyanak": { "items": [] },
-    "Jain Festivals / Parva": { "items": [] },
+    "New Diksha Announcements": {
+      "items": [
+        {
+          "location": "Rajvaibhav Cultural Building, Natepute, Solapur, Maharashtra",
+          "headline": "Jaineshwari Diksha of Brahmacharini Indira and Brahmacharini Savita Under Acharya Suvidhisagar Ji Maharaj",
+          "body": "Brahmacharini Indira (from Chandrapur) and Brahmacharini Savita (from Nagpur) took Jaineshwari monastic vows on August 19 in a grand ceremony held under the sacred presence of Acharya Shri Suvidhisagar Ji Maharaj, described as held \"with faith and a spiritual atmosphere.\"",
+          "source": "Berar Times",
+          "date": "2026-08-19",
+          "url": "https://www.berartimes.com/hindi-news/234548/"
+        },
+        {
+          "location": "Sikar, Rajasthan",
+          "headline": "Seven Mumukshus Take Diksha Together in Sikar — First Time in 39 Years",
+          "body": "Seven aspirants renounced the world simultaneously under Acharya Vardhamansagar Maharaj, described as the first time in 39 years that seven mumukshus have taken diksha together in Sikar. The ceremony was deliberately timed to coincide with Lord Parshvanath's Moksha Kalyanak day (see Tirthankar Kalyanak) and was preceded by a large shobhayatra (procession) featuring a symbolic representation of Sammed Shikharji.",
+          "source": "Amar Ujala",
+          "date": "2026-08-19",
+          "url": "https://www.amarujala.com/rajasthan/sikar/rajasthan-seven-people-in-sikar-took-the-vow-of-renunciation-simultaneously-news-in-hindi-2026-08-19"
+        },
+        {
+          "location": "Shri Adinath Digambar Jain Punyoday Atishay Kshetra, Nasiya Ji, Dadabari, Kota, Rajasthan",
+          "headline": "First-Ever Muni Diksha in Rajasthan Under Acharya Vidyasagar Ji's Monastic Tradition",
+          "body": "Kshullak Shri 105 Samyamsagar Ji Maharaj received muni diksha from Muni Shri 108 Yogsagar Ji Maharaj on August 20, in what was reported as the first-ever performance of this initiation rite from the Vidyasagar sangh-parampara in Rajasthan. The newly initiated monk was named Muni Shri 108 Pranavsagar Ji Maharaj; thousands of devotees attended in witness.",
+          "source": "Pratahkal (pre- and post-event coverage)",
+          "date": "2026-08-20",
+          "url": "https://www.pratahkal.com/kota/kota-jaineshwari-muni-diksha-mahotsav-pranavsagar-1624185"
+        },
+        {
+          "location": "Kheroda, Udaipur district, Rajasthan",
+          "headline": "Mumukshu Kantilal Gandhi Takes Diksha, Renamed Arun Muni",
+          "body": "As part of the \"Pavan Parivartan Chaturmas 2026\" in Kheroda, Mumukshu Kantilal Gandhi took diksha at a Jain Bhagwati Diksha Mahamahotsav on August 23 under the guidance of Guru Dev Komal Muni Maharaj Sahab \"Karunakar\" (Mewar Upa-Pravartak), part of the broader Sthanakvasi lineage headed by Acharya Bhagwant Dr. Shivmuni and Yuvacharya Mahendra Rishi, and was renamed Arun Muni.",
+          "source": "Pratahkal (pre- and post-event coverage)",
+          "date": "2026-08-23",
+          "url": "https://www.pratahkal.com/udaipur/kheroda-jain-bhagwati-diksha-mahamahotsav-arun-muni-1625086"
+        }
+      ]
+    },
+    "Tirthankar Kalyanak": {
+      "items": [
+        {
+          "location": "Nationwide — Gwalior (MP), Jaipur, Sikar (Rajasthan), Baghpat (UP), Pauri (Uttarakhand)",
+          "headline": "Parshwanath Nirvan Kalyanak (Moksha Saptami) Observed Across North India",
+          "body": "August 19, 2026 marked Moksha Saptami -- the Nirvan/Moksha Kalyanak (liberation anniversary) of the 23rd Tirthankar, Bhagwan Parshwanath -- observed with dhwajarohan (flag-hoisting), Jinendra pujan, Panch Kalyanak Vidhan pujan, and Nirvan Laddu offerings at Shri Digambar Jain Siddha Kshetra on Gopachal Parvat, Gwalior; a 108-kalash abhishek and evening puja with 108 oil lamps and Kalyan Mandir stotra recitation at Shri Digambar Jain Mandir, Mahavir Nagar, Jaipur; abhishek ceremonies in Baghpat, UP and Pauri, Uttarakhand; and, in Sikar, Rajasthan, the day was marked by seven mumukshus taking diksha together in observance of the occasion (see New Diksha Announcements).",
+          "source": "Pratahkal (Jaipur); Amar Ujala (Baghpat, Pauri, Sikar)",
+          "date": "2026-08-19",
+          "url": "https://www.pratahkal.com/jaipur/lord-parshwanath-moksha-kalyanak-mahotsav-rituals-1623628"
+        }
+      ]
+    },
+    "Jain Festivals / Parva": {
+      "items": [
+        {
+          "location": "Shri Sambhavnath Swetambar Jain Mandir, Bapunagar, Bhilwara, Rajasthan",
+          "headline": "Eight-Day Sthanakvasi Paryushan Parva Aradhana Held in Bhilwara",
+          "body": "The Shri Sambhavnath Swetambar Jain Mandir committee, Bapunagar, held an eight-day Paryushan Parva Aradhana from August 20 to August 27, with daily worship, penance, and religious observance. (Note: this Sthanakvasi observance is distinct from the main Shwetambar Murtipujak Paryushan Parva, which falls September 8-15, 2026, and the Digambar Das Lakshan Parva, September 15-25, 2026 -- both outside this issue's coverage window.)",
+          "source": "Patrika",
+          "date": "2026-08-20",
+          "url": "https://www.patrika.com/bhilwara-news/eight-day-long-paryushan-festival-worship-from-20th-19871808"
+        },
+        {
+          "location": "Shri Punyoday Atishay Kshetra, Nasiyaji, Dadabari, Kota, Rajasthan",
+          "headline": "Raksha Bandhan Observed as \"Shraman Sanskriti Rakshak Divas\" in Kota",
+          "body": "On Raksha Bandhan (Shravan Shukla Purnima), Shri Punyoday Atishay Kshetra observed \"Shraman Sanskriti Rakshak Divas\" (Protector of Shraman Culture Day) and Vatsalya Divas, presenting arghya (ritual offering) to roughly 700 munirajs, with discourse on protecting the living culture of renunciation, penance, restraint, and ahimsa as every Shravak's duty.",
+          "source": "Pratahkal",
+          "date": "2026-08-28",
+          "url": "https://www.pratahkal.com/kota/shraman-sanskriti-rakshak-divas-nasiyaji-rakshabandhan-1626536"
+        }
+      ]
+    },
     "Guru Maharaj Pravesh & Chaturmas Announcements": {
       "items": [
+        {
+          "location": "Vidyodaya Teerth, Bhopal, Madhya Pradesh",
+          "headline": "Acharya Samay Sagar Maharaj's Sangh Kalash Sthapana in Bhopal — Chief Minister Declares Him State Guest",
+          "body": "At a Kalash Sthapana ceremony for Acharya Samay Sagar Maharaj's sangh, Madhya Pradesh Chief Minister Dr. Mohan Yadav sought the Acharya's blessings and formally declared him a \"rajkiya atithi\" (state guest). The CM also announced plans for a special one-day session of the Madhya Pradesh Legislative Assembly to include the Acharya's pravachan (an exact date for that session was not confirmed in available coverage).",
+          "source": "Dainik Jagran MP/CG; corroborated by Amar Ujala, The Sootr, and teenbattinews.com",
+          "date": "2026-08-02",
+          "url": "https://www.dainikjagranmpcg.com/state/madhya-pradesh/acharya-samay-sagar-maharaj-declared-state-guest-of-madhya-pradesh/article-60533"
+        },
         {
           "location": "Chitrakootdham & Suryamahal (Shastrinagar), Bhilwara, Rajasthan",
           "headline": "Acharya (Rashtra Sant) Pulaksagar Ji Maharaj's Chaturmas Formally Begins in Bhilwara; Gyan Ganga Mahotsav Announced",
@@ -51,9 +124,17 @@
           "url": "https://www.pratahkal.com/bhilwara/bhilwara-jain-sant-pulaksagar-ji-chatumash-kalash-sthapna-1618896"
         },
         {
+          "location": "Digambar Jain Mandir, Main Road, Ramgarh, Jharkhand",
+          "headline": "First-Ever Muni Sangh Chaturmas Hosted in Ramgarh",
+          "body": "The Digambar Jain Samaj of Ramgarh performed a Mangal Kalash Sthapana on August 5, marking the first-ever muni sangh chaturmas hosted in the town. The presiding monks, Muni Shri Punyanand Ji and Muni Shri Shubhanand Ji (disciples of Acharya Shri Vasunandi), had already been resident at the jinalaya for about two months prior. Yogesh Sethi, secretary of the Jain Samaj and convenor of the Pawan Varshayog Maha-Samiti, was quoted on the significance of the occasion.",
+          "source": "Prabhat Khabar",
+          "date": "2026-08-05",
+          "url": "https://www.prabhatkhabar.com/state/jharkhand/ramgarh/digambar-jain-temple-chaturmas-kalash-sthapana-2026-08-05"
+        },
+        {
           "location": "Sri Adinath Digambar Jain Punyoday Atishay Kshetra (Nasiyaji, Dadabari), Kota, Rajasthan",
           "headline": "Muni Yogasagar Maharaj Holds His First-Ever Varshayog (Chaturmas) in Rajasthan",
-          "body": "A grand Varshayog Kalash Sthapana Mahamahotsav was held on August 9 (a Sunday) under the guidance of Muni Shri 108 Yogasagar Maharaj, reported as his first-ever varshayog/chaturmas stay in Rajasthan. Devotees were reported converging from across the country for the ceremony at the Sri Adinath Digambar Jain Punyoday Atishay Kshetra.",
+          "body": "A grand Varshayog Kalash Sthapana Mahamahotsav was held on August 9 (a Sunday) under the guidance of Muni Shri 108 Yogasagar Maharaj, reported as his first-ever varshayog/chaturmas stay in Rajasthan. Devotees were reported converging from across the country for the ceremony.",
           "source": "Pratahkal (two corroborating articles)",
           "date": "2026-08-09",
           "url": "https://www.pratahkal.com/kota/munishree-yogasagar-varshayog-chaturmas-kota-rajasthan-1617096"
@@ -67,14 +148,6 @@
           "url": "https://paliwalwani.com/indore/special-guidance-address-to-the-youth-of-mahashraman-muni-sudhasagar-ji-maharaj-of-the-most-revered-"
         },
         {
-          "location": "Digambar Jain Mandir, Main Road, Ramgarh, Jharkhand",
-          "headline": "First-Ever Muni Sangh Chaturmas Hosted in Ramgarh",
-          "body": "The Digambar Jain Samaj of Ramgarh performed a Mangal Kalash Sthapana on August 5, marking the first-ever muni sangh chaturmas hosted in the town. The presiding monks, Muni Shri Punyanand Ji and Muni Shri Shubhanand Ji (disciples of Acharya Shri Vasunandi), had already been resident at the jinalaya for about two months prior. Yogesh Sethi, secretary of the Jain Samaj and convenor of the Pawan Varshayog Maha-Samiti, was quoted on the significance of the occasion.",
-          "source": "Prabhat Khabar",
-          "date": "2026-08-05",
-          "url": "https://www.prabhatkhabar.com/state/jharkhand/ramgarh/digambar-jain-temple-chaturmas-kalash-sthapana-2026-08-05"
-        },
-        {
           "location": "Pushpagiri Jain Tirth (near Sonkatch, Indore-Bhopal road), Madhya Pradesh",
           "headline": "Two-Day Pattavibhushan Sanskar Mahotsav Held for Acharya Prasannasagar Ji at Pushpagiri Tirth",
           "body": "A two-day \"Pattavibhushan Sanskar Mahotsav\" -- a ceremonial monastic title-conferral observance -- was held August 15-16 for Acharya Shri 108 Prasannasagar Ji Maharaj at Pushpagiri Jain Tirth, under the guidance of the tirth's founder-guide, Ganacharya Shri 108 Pushpadant Sagar Ji Maharaj, organised by Antarmana Dharmik evam Parmarthik Nyas, Pushpagiri Tirth.",
@@ -84,7 +157,26 @@
         }
       ]
     },
-    "New Temples & Tirth Renovation": { "items": [] },
+    "New Temples & Tirth Renovation": {
+      "items": [
+        {
+          "location": "Kalubas, Sri Dungargarh, Bikaner district, Rajasthan",
+          "headline": "Bhoomi Pujan and Shilanyas for New Jain Temple in Sri Dungargarh",
+          "body": "Under Sri Oswal Panchayat, a ceremonial procession (shobhayatra) departed around 9 AM from the Panchayat premises on August 19, carrying the foundation stone through the town's main routes to the proposed temple site in Kalubas, where Bhoomi Pujan and Shilanyas were performed for a new Jain temple to be built in the traditional Jain architectural style.",
+          "source": "SriDungargarhTimes (pre- and post-event coverage)",
+          "date": "2026-08-19",
+          "url": "https://sridungargarhtimes.com/ritual-worship-was-performed-the-foundation-stone-of-the-jain-temple-was-laid-and-a-ceremonial-procession-was-taken-out-in-the-morning/"
+        },
+        {
+          "location": "Javas (Jawas), Kherwara tehsil, Udaipur district, Rajasthan",
+          "headline": "Yaksha-Yakshi Sthapana and Bhoomi Shilanyas for New Monks' Residence at Javas's Adinath Temple",
+          "body": "At Sri 1008 Adinath Digambar Jain Temple, a Yaksha-Yakshi Sthapana (protector-deity installation) and Bhoomi Shilanyas (foundation-stone laying) for the new \"Adinath Nilayam Vasatika\" (monks' residence) were held August 30, organised by the Adinath Trust Board (Jawas) together with the All India Digambar Jain Yuva Parishad, Rishabhdev, with chief officiant Sudhir Ji Matand. A post-event report published August 31 put attendance at roughly 1,400 devotees.",
+          "source": "Pratahkal (pre- and post-event coverage)",
+          "date": "2026-08-30",
+          "url": "https://www.pratahkal.com/udaipur/javas-adinath-jain-temple-pratishtha-shilanyas-1627164"
+        }
+      ]
+    },
     "Jain Tirth News": { "items": [] },
     "Jain Vihar": { "items": [] },
     "Other Community News / Announcements": {
@@ -107,7 +199,18 @@
         }
       ]
     },
-    "Jain Leadership / Forums": { "items": [] },
+    "Jain Leadership / Forums": {
+      "items": [
+        {
+          "location": "Udaipur, Rajasthan",
+          "headline": "Suresh Kumar Seth Elected President of Shrimal Seth Achalgachh Jain Shri Sangh",
+          "body": "Suresh Kumar Seth won the presidency of Shri Shrimal Seth Achalgachh Jain Shwetambar Murtipujak Shri Sangh, Udaipur, on August 23, with 158 votes (62.45% of votes cast) -- a winning margin of 63 votes. The full elected slate: Suresh Kumar Seth (President), Sunil Kumar Seth (Secretary), Lalit Kumar Seth (Vice President), and a second individual also named Suresh Kumar Seth (Treasurer). The newly elected office bearers took their oath of office on August 30.",
+          "source": "Udaipur Views",
+          "date": "2026-08-23",
+          "url": "https://www.udaipurviews.com/newly-elected-office-bearers-of-shrimal-seth-achalgachh-jain-shri-sangh-took-oath/"
+        }
+      ]
+    },
     "Jain Business & Trade": {
       "items": [
         {
@@ -117,6 +220,14 @@
           "source": "JITO USA; corroborated by South Asian Herald and New India Abroad",
           "date": "2026-08-02",
           "url": "https://www.jitousa.org/news/jito-dc-hosts-transformative-masterclass-creating-breakthrough-results-with-teoco-founder-atul-jain/"
+        },
+        {
+          "location": "Chennai, Tamil Nadu",
+          "headline": "JITO Chennai Runs Mega Employment & Empowerment Drive for Divyang (Specially-Abled) Individuals",
+          "body": "JITO Chennai Chapter, through its JITO Jobs initiative, organised a mega employment and empowerment drive on August 6 aimed at connecting Divyang (specially-abled) individuals with employment opportunities.",
+          "source": "IndiaStarsNow",
+          "date": "2026-08-06",
+          "url": "https://indiastarsnow.com/2026/35831/"
         },
         {
           "location": "Steven J. Green School of International and Public Affairs, Florida International University, Miami, Florida, USA",
@@ -133,6 +244,14 @@
           "source": "JITO (official event listing)",
           "date": "2026-08-13",
           "url": "https://jito.org/events/viewevent/2513-e-nspire-evolvefromhome"
+        },
+        {
+          "location": "Brilliant Convention Centre, Indore, Madhya Pradesh",
+          "headline": "JITO Nagpur Chapter Recognised at \"Review 2026\"",
+          "body": "At JITO's \"Review 2026\" event, held August 22-24 at Brilliant Convention Centre, Indore, JITO Apex recognised the JITO Nagpur Chapter for its noteworthy functioning, active participation, and commitment to the organisation, citing its programs on member development, business networking, social participation, youth empowerment, and women's empowerment.",
+          "source": "The Hitavada",
+          "date": "2026-08-22",
+          "url": "https://www.thehitavada.com/Encyc/2026/8/29/jito-nagpur-chapter-gets-special-recognition-at-review-2026.html"
         }
       ]
     },
@@ -155,16 +274,54 @@
           "url": "https://www.freepressjournal.in/india/12th-century-jain-inscription-found-in-dharashiv-reveals-lost-vijay-parshvanath-temple-evidence"
         },
         {
+          "location": "Mohalla Uppar Tila, Bhogaon, Mainpuri district, Uttar Pradesh",
+          "headline": "Two Ancient Jain Statues and a Charan Paduka Found During Plot Excavation in Bhogaon",
+          "body": "During private-plot excavation on August 19, workers uncovered two ancient Jain idols -- one bearing identifying marks of Tirthankara Ajitnath, the second's markings worn away -- plus a charan paduka (sacred footprint stone), all in the unclothed (Digambar) iconographic tradition. Local Jain social worker Dr. Manoj Jain said Bhogaon's ancient name was \"Bhumigram,\" historically an ancient Jain city, noting a Jain king once had a fort here containing a Jain temple, later destroyed during Mughal rule. The statues were reportedly installed at the local Sri Parshvanath Digambar Jain Temple.",
+          "source": "Amar Ujala",
+          "date": "2026-08-19",
+          "url": "https://www.amarujala.com/uttar-pradesh/mainpuri/mainpuri-news-jain-statue-founded-mainpuri-news-c-174-1-mnp1003-165103-2026-08-19"
+        },
+        {
           "location": "Dundigal, Medchal district, Telangana",
           "headline": "11th-Century Inscription Referencing Jainism and a Basadi Found at Dundigal Temple",
           "body": "A 41-line pillar inscription in Telugu/Kannada scripts was found on the premises of Lakshminarayana Swamy temple, spotted by local resident Narsannagari Jagan and reported to Haragopal, president of the New Telangana History Group. The inscription records an 11th-century land donation under Kalyani Chalukya king Vikramaditya VI, and separately references Jainism, a basadi (Jain shrine), the \"Soma\" lineage, and depicts a Jain Tirthankara alongside sun/moon and cow-calf motifs -- a mixed-faith inscription with genuine Jain content, though not a purely Jain monument.",
           "source": "Deccan Chronicle; corroborated by Telangana Today",
           "date": "2026-08-18",
           "url": "https://www.deccanchronicle.com/southern-states/telangana/11th-century-jain-inscription-discovered-in-dundigal-1980665"
+        },
+        {
+          "location": "Kote Basadi, Mala village, Karkala taluk, Udupi district, Karnataka",
+          "headline": "Five Rare Jain Inscriptions Discovered at Historic Kote Basadi in Karkala",
+          "body": "During renovation work at the historic Kote Basadi, researchers found five previously unrecorded Jain inscriptions engraved on Jain idols and on the base of a shrutaskandha (a stand for sacred scripture). A three-line inscription records that a person named \"Vigna,\" son of Hegade, commissioned an object for the basadi; a separate Devanagari-script inscription on the pedestal of a marble Parshvanatha Tirthankara statue records the statue's installation during the 17th century CE. Together the inscriptions push back documented continuous Jain worship at the site to the 14th-15th century. Ayurvedic doctor Dr. P. Satyanarayana Bhat alerted a research team led by Prof. S.A. Krishnaiah of Udupi's Prachya Sanchaya Research Centre.",
+          "source": "Asianet Newsable",
+          "date": "2026-08-28",
+          "url": "https://newsable.asianetnews.com/karnataka-news/udupi-5-rare-jain-inscriptions-discovered-at-historic-kote-basadi-in-karkala-articleshow-n1c98gm"
         }
       ]
     },
-    "Controversial Data": { "items": [] },
-    "Jain People Recognized Anywhere": { "items": [] }
+    "Controversial Data": {
+      "items": [
+        {
+          "location": "Parasnath Hills (Sammed Shikharji), Giridih district, Jharkhand",
+          "headline": "Sammed Shikharji Dispute: \"Har Har Mahadev\" Chants and \"Parshuram Temple\" Claims Reignite Jain-Tribal Tensions Over Sacred Site's Identity",
+          "body": "On August 19, a video circulated showing a group of visitors chanting \"Har Har Mahadev\" while trekking up Parasnath Hills -- the site Jains revere as Sammed Shikharji, where 20 of the 24 Tirthankaras are believed to have attained moksha, making it Jainism's most sacred pilgrimage site. In the video, a Jain woman pilgrim confronts the group. Separately, some visitors were recorded on social media describing the summit shrine as a \"Parshuram Temple,\" asserting the site's religious identity is linked to the Hindu sage Parshuram. The Jain community's stated concern is not the chanting alone but that repeated ritual assertions plus a competing origin-claim could eventually be used to argue a competing claim over the site itself -- a fear rooted in the community's long-running fight (since a 2019 Jharkhand government notification and continuing through 2023 protests) against the hill's designation as an eco-tourism zone, which Jains say invites commercialization and conduct they consider disrespectful to the shrine. Jain community protests over the August incident were reported in Mumbai, Ahmedabad, Bhopal, New Delhi, and Surat, and the Centre reportedly asked the Jharkhand state government to maintain the site's sanctity. On the other side, tribal (Santhal) organisations -- including the Marang Buru Bachao Sangharsh Morcha and a group identified as ASA -- pushed back, asserting the hill is their own sacred site, known to them as \"Marang Buru,\" and pointing to historic customary/ancestral rights recognised in a 1911 Privy Council precedent; ASA was reported threatening a stir across five states over the dispute. The National Commission for Minorities has separately received representations on Parasnath-related issues. Based on all available reporting, this remained a verbal, protest, and social-media dispute -- no injury or physical confrontation was reported on either side.",
+          "source": "OpIndia; Deccan Herald (multiple reports); Prabhat Khabar; Giridih Updates",
+          "date": "2026-08-19",
+          "url": "https://www.opindia.com/2026/08/jain-pilgrims-object-to-har-har-mahadev-chants-on-parasnath-hills-know-about-sammed-shikharji-controversy/"
+        }
+      ]
+    },
+    "Jain People Recognized Anywhere": {
+      "items": [
+        {
+          "location": "Bangalore, Karnataka",
+          "headline": "Students Honoured for Passing the Jain Vidya Pariksha-2025",
+          "body": "A felicitation ceremony honoured students who passed the 2025 Jain Vidya Pariksha, a community-run examination testing knowledge of Jain religious teachings and scripture -- a group recognition in which the students' Jain identity and religious education is intrinsic to the honour itself.",
+          "source": "ThatExpressNews",
+          "date": "2026-08-26",
+          "url": "https://www.tharexpressnews.com/honoring-students-who-passed-the-jain-vidya-pariksha-2025/"
+        }
+      ]
+    }
   }
 }

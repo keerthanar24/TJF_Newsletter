@@ -8,11 +8,11 @@ re-specified from scratch each time.
 
 | File | Purpose |
 |---|---|
-| `config.py` | Every standing requirement as code: the 13 required sections, the spiritual/happening-events-only scope rule, the cruelty/violence blocklist, the trusted-source tiers, the 80/20 India-overseas target, quarterly cadence, print-magazine format flags, title ("Jain Magazine"). |
+| `config.py` | Every standing requirement as code: the 15 required sections, the spiritual/happening-events-only scope rule, the cruelty/violence blocklist, the trusted-source tiers, the 80/20 India-overseas target, quarterly cadence, print-magazine format flags, title ("Jain Magazine"). |
 | `RESEARCH_AGENT_PROMPT.md` | The standing instructions an AI agent follows each quarter to research real news, apply the scope/cruelty/sourcing rules, generate the cover image, and write the content JSON. This is the part that genuinely requires an LLM — a plain script cannot judge what's "real," "spiritual," or "not cruel." |
-| `content_schema_example.json` | The empty-form schema for one issue's data — all 13 sections, issue metadata, cover image. |
+| `content_schema_example.json` | The empty-form schema for one issue's data — all 15 sections, issue metadata, cover image. |
 | `demo_issue.json` | A filled-in example (the actual Aug 3–18, 2026 researched content), used to prove the pipeline works. |
-| `render_magazine.py` | The deterministic part: turns a content JSON into a print-ready magazine PDF — full-bleed cover, table of contents, editor's note, article pages, back cover. Runs a mechanical cruelty-filter safety net, validates all 13 sections are present before rendering, and omits any section with no items entirely (no empty-placeholder block). |
+| `render_magazine.py` | The deterministic part: turns a content JSON into a print-ready magazine PDF — full-bleed cover, table of contents, editor's note, article pages, back cover. Runs a mechanical cruelty-filter safety net, validates all 15 sections are present before rendering, and omits any section with no items entirely (no empty-placeholder block). |
 | `cover_picker.py` | Rotating cover-photo picker: deterministically returns the least-recently-used real photo from `assets/covers/`, so consecutive issues don't reuse the same cover. Preferred image source is fresh generation each quarter (see `RESEARCH_AGENT_PROMPT.md` step 4); this is the fallback that still guarantees variety without generation access. |
 | `assets/covers/` | The rotation pool of real, pre-approved cover photos. Currently holds one (Girnar/Shatrunjaya) — add more real photos here over time to make the rotation meaningful. |
 | `issues/cover_history.json` | Tracks which cover photo each past issue used, so `cover_picker.py` knows what to avoid repeating. |
@@ -63,7 +63,7 @@ This deliberately differs from the earlier newsletter-style layout:
 
 - **Full-bleed cover** with a hero image, masthead, coverage dates, and 2–3
   cover-teaser headlines — like a real print magazine cover, not a header.
-- **Table of contents** page listing all 13 sections.
+- **Table of contents** page listing all 15 sections.
 - **Packed article pages** — multiple sections share a physical page when
   they're short (instead of every section, including empty ones, wasting
   a nearly-blank page — this was tuned specifically to avoid the "gaps"

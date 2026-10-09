@@ -4,7 +4,7 @@ Jain Magazine — print-format renderer.
 
 Turns a per-issue content JSON (see content_schema_example.json) into a
 print-ready magazine PDF: full-bleed cover, table of contents, editor's
-note, article pages grouped by the 13 standing sections, and a back cover.
+note, article pages grouped by the 15 standing sections, and a back cover.
 
 This script is deliberately "dumb" about content — it does NOT research
 news or judge what is spiritual/appropriate. That judgment happens in the
@@ -387,7 +387,7 @@ def main():
 
     content = json.loads(Path(args.content_json).read_text(encoding="utf-8"))
 
-    # Validate: all 13 required sections must be present.
+    # Validate: all 15 required sections must be present.
     missing = [s for s in cfg.SECTIONS if s not in content["sections"]]
     if missing:
         sys.exit(f"ERROR: content JSON is missing required sections: {missing}")
